@@ -1,0 +1,69 @@
+Les champs d'un formulaire
+===========================
+Puka vous permet de stocker vos données au travers de différents type de champs.
+Ces types permettent d'apportent certaines contraintes sur vos données et ainsi de s'assurer de la cohérence des données.
+
+Modifier les champs d'un formulaire
+-----------------------------------
+Les champs d'un formulaire peuvent être ajoutés, modifiés ou supprimés à tout moment.
+Ces fonctions sont accessibles au niveau formulaire.
+
+1. Accédez au tableau de bord d'un formulaire
+2. Sélectionnez la fonctionnalité "Modifier les champs" depuis le menu "Fonctionnalités avancées"
+
+.. figure::  /img/fields/menu.png
+   :align:   center
+
+La page présente l'ensemble des champs du formulaire en cours, dans l'ordre de saisie.
+
+.. figure::  /img/references/fields.png
+   :align:   center
+
+Ajouter un champ
+----------------
+Pour ajouter un champ, sélectionnez le bouton "Ajouter un champ". 
+Celui-ci propose un sélecteur de type qui vous permet de spécifier quel champ vous souhaitez créer.
+Les types proposés par puka sont les suivants : 
+
+* `Texte <text.html>`_
+* `Case à cocher <checkbox.html>`_
+* Date
+* Heure
+* Durée
+* Nombre
+* Choix multiple
+* Référence
+* Lien
+* Utilisateur
+* Calculé
+* Etiquette
+* Note
+
+Les détails d'utilisation de chacun de ces types sont détaillés dans la section correspondante. Cliquez sur un type pour y accéder. 
+
+Les attributs présents sur tous les types de champs sont les suivants :
+
+* Nom (obligatoire) : le nom du champ
+* Aide : un message d'aide affiché à la saisie et qui permet de guider l'utilisateur
+
+Modifier un champ
+-----------------
+Pour modifier un champ, sélectionnez l'icône de crayon du champ correspondant.
+Certains :term:`attributs` ne sont pas modifiables. Voir le détail par type de champs pour plus d'informations.
+
+Supprimer un champ
+------------------
+Pour supprimer un champ, sélectionnez l'icône de croix du champ correspondant.
+Attention : toute suppression de champ entraîne la suppression de toutes les données associées.
+
+Modifier l'ordre des champs
+---------------------------
+Pour modifier l'ordre des champs, déplacez verticalement la boîte indiquée par le symbole suivant :
+
+.. figure::  /img/fields/order.png
+   :align:   center
+   
+Pour valider le nouvel ordre des champs, activer le bouton : "Enregistrer l'ordre des champs".
+
+
+

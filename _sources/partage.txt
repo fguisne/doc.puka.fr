@@ -1,0 +1,38 @@
+Formulaires publics
+===================
+
+Introduction
+------------
+Puka vous permet de partager vos formulaires avec des personnes qui n'ont pas de compte sur l'application.
+
+Cette fonctionnalité vous permet par exemple d'organiser des sondages, d'avoir des retours sur un projet ou tout simplement de proposer un formulaire de contact sur votre site web.
+
+Il existe deux manière de partager un formulaire sur internet :
+
+ - avec un lien public vers le formulaire
+ - en intégrant le formulaire dans un site existant 
+ 
+.. figure::  img/partage/partage.png
+
+Lien public
+-----------
+
+Le lien public vous permet de partage le formulaire par email ou sur les réseaux sociaux par exemple. Il se présente sous la forme suivante :
+
+    https://app.puka.fr/poll/96/lsgtb84o3jpomh4lk0u8f268vq
+    
+Ces sondages, au même titre que le reste de l'application, utilisent HTTPS (visible par le cadenas vert dans le navigateur). Vos utilisateurs peuvent donc soumettre leurs réponses sans crainte de fuite de données.
+
+Intégration sur un site existant
+--------------------------------
+
+Vous pouvez également intégrer le formulaire directement sur votre site. Nous utilisons pour cela la technologie *iframe* qui permet d'insérer des sites les uns dans les autres.
+
+Le code à insérer est disponible dans les propriétés du formulaire, une fois que le partage de ce dernier a été activé.
+
+Le formulaire proposé s'adaptera en largeur à l'espace disponible dans votre site internet. En revanche la longueur n'est pas dynamique.
+
+Pour modifier la longueur, il faut changer la valeur de l'attribut *height*.::
+
+    <iframe style='width: 100%; height: 500px; border: 0; overflow: hidden' src='https://app.puka.fr/poll/96/lsgtb84o3jpomh4lk0u8f268vq?iframe=true'>
+    </iframe>

@@ -1,0 +1,16 @@
+Compte Utiilsateur
+==================
+
+Cette section vous permet de configurer votre compte utilisateur.
+
+TODO
+
+.. figure::  img/account_profile.png
+   :align:   center
+.. figure::  img/account_password.png
+   :align:   center
+.. figure::  img/account_settings.png
+   :align:   center
+.. figure::  img/account_licence.png
+   :align:   center
+

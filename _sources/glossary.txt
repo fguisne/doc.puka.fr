@@ -1,0 +1,18 @@
+Glossaire
+==========
+.. glossary::
+
+    Attributs
+        Propriétés d'un champ permettant de spécifier son comportement. Chaque type de champ possède ses propores attributs, 
+        bien que certains puissent être partagés par plusieurs types (caractère *obligatoire* par exemple). 
+        Certains attributs sont modifiables, d'autres seront figés suite à la création du champ (*formulaire référencé* par exemple).
+        
+    Résumé
+        Texte synthétique représentant les informations d'un enregistrement, utilisé sur les références. 
+        Par défaut, il est généré à partir des champs de type texte (non formatés) du formulaire.
+        Il est possible de créer un résumé personnalisé pour un formulaire.
+        Pour plus d'informations, voir : `Affichage d'une référence <references.html#affichage-d-une-reference>`_ 
+        
+    Texte formaté
+        Un texte formaté ou *riche* est un texte qui est saisi et affiché avec des options de formatage 
+        (police, liens hyper-texte, insertions d'images par adresse).

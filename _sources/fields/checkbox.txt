@@ -1,0 +1,16 @@
+Les champs *Case à cocher*
+==========================
+Les champs *case à cocher* permettent de stocker des valeurs de type vrai/faux.
+ 
+Attributs communs
+-----------------
+===================  ========== ============
+Attribut             Modifiable Rôle
+===================  ========== ============
+Nom                      Oui        Nom du champ (obligatoire)
+Aide                     Oui        Message d'aide affiché à la saisie et qui permet de guider l'utilisateur
+===================  ========== ============
+
+Attributs spécifiques
+---------------------
+*Aucun*

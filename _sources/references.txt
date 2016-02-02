@@ -1,0 +1,90 @@
+Références
+==========
+
+Généralités
+-----------
+Puka permet de lier 2 formulaires entre eux. Cette liaison permet de proposer des valeurs correspondant aux entrées d'un autre formulaire.
+La navigation d'une entrée vers une autre entrée référencée est possible par simple clic sur l'élément. 
+
+Il n'est possible de lier entre eux que des formulaires appartenant à la même équipe.
+Un formulaire peut se référencer lui-même.
+
+Une référence peut être :
+
+* simple : un seul enregistrement du formulaire lié pourra être sélectionné
+* multiple : plusieurs enregistrements du formulaire liés pourront être sélectionnés
+
+Ci-dessous, un exemple de référencement d'un formulaire :
+Le formulaire "Personnes" est lié à lui-même afin d'associer une personne à son conjoint (facultatif).
+
+.. figure::  img/references/example.png
+   :align:   center
+    
+Affichage d'une référence
+-------------------------
+Une référence dans puka est représentée de la manière suivante :
+
+.. figure::  img/references/render.png
+   :align:   center
+
+Le texte affiché est appelé :term:`résumé` . Il est construit automatiquement à partir des champs de type *texte* du formulaire, et triés dans l'ordre défini pour le formulaire.
+Ainsi, un formulaire proposant les champs de type *texte* suivants : 
+
+* *Nom* 
+* *Prénom*
+ 
+proposera des *résumés* de type : "DUPONT Jean", "DURANT Stéphane".
+Si ce résumé ne vous convient pas (champs à utiliser ou ordre de ces champs), il est possible de le modifier dans les proporiétés du formulaire.
+
+1. Accédez au tableau de bord du formulaire
+2. Sélectionnez le menu "Fontionnalités avancées > Propriétés du formulaire"
+3. Cochez la case "Utiliser un résumé personnalisé (pour références à ce formulaire)"
+4. Faites glisser les champs disponibles (de type *texte*) de la zone "Champs disponibles" à "Champs utilisés"
+5. Il est également possible, dans la partie "Champs utilisés" de faire glisser les champs verticalement afin de modifier l'ordre de prise en compte pour la génération du *résumé*
+
+.. figure::  img/references/summary.png
+   :align:   center
+   
+Il est à noter, que si un formulaire ne comporte pas de champs de type *texte* (ce qui est déconseillé dans le cas d'utilisations de références sur ce champ)
+un résumé sera néanmoins généré. Il portera pour chacun des enregistrements le nom du formulaire. 
+
+
+Un cas pratique : les réunions
+------------------------------
+Pour vous guider dans la création de références, prenons le cas pratique de réunions.
+
+Nous disposons de 2 formulaires :
+
+* une liste de personnes (nom, prénom, date de naissance, fonction)
+* une liste de réunions (titre, date, heure, durée, lieu)
+
+Nous souhaitons relier ces formulaires entre eux en précisant pour chaque réunion qui est l'organisateur, 
+et qui sont les participants.
+
+Création de l'organisateur :
+
+1. Sur le formulaire "Réunions", ajoutez un champ de type *référence*.
+2. Nommez ce champ "Organisateur", et indiquez le *formulaire référencé* : "Personnes"
+
+Création des participants :
+
+1. Sur le formulaire "Réunions", ajoutez un champ de type *référence*.
+2. Nommez ce champ "Participants", cochez la case *Sélection multiple* et indiquez le *formulaire référencé* : "Personnes"
+
+Vous devrier avoir une liste de champs équivalente à celle-ci :
+
+.. figure::  img/references/fields.png
+   :align:   center
+
+Et c'est tout ! Il ne vous reste qu'à créer des enregistrements dans vos formulaires.
+
+Vous obtiendrez des enregistrements tels que celui-ci :
+
+.. figure::  img/references/reunion.png
+   :align:   center
+
+
+Articles liés
+-------------
+* `Modifier les champs d'un formulaire <fields/fields.html#modifier-les-champs-d-un-formulaire>`_
+* `Le champ référence <fields/reference.html>`_ 

@@ -1,0 +1,28 @@
+Diagrammes
+==========
+
+Les diagrammes vous permettent d'avoir une quantification rapidement et visuellement de vos données. Ils sont mis automatiquement à jour au fur et à mesure que vous ajoutez, supprimez, ou modifier des données.
+
+Pour les créer et les visualiser, il faut vous rendre sur le tableau de bord de votre formulaire. Un onglet "Diagrammes" est présent.
+
+Dans un premier temps, la seule action possible est de créer un nouveau diagramme en cliquant sur le bouton "Ajouter un diagramme".
+
+.. figure::  img/charts/add-chart.png
+    :scale: 50 %
+
+Vous devez définir plusieurs valeurs pour créer votre diagramme : 
+
+* Un titre : il sera présent au dessus de votre diagramme
+* Un type : camembert ou diagramme "en barres"
+* Une source de données : vous retrouverez les champs qui peuvent servir de source de données, à savoir les champs Case à cocher, Choix Multiple, Etiquette, Note.
+
+.. figure::  img/charts/chart-form.png
+    :scale: 50 %
+   
+
+Une fois le formulaire validé, vous aurez directement votre résultat dans l'onglet diagrammes. A partir cette vue, vous pouvez éditer un diagramme, à l'aide du crayon, ou bien le supprimer, avec la croix.
+
+.. figure::  img/charts/chart-result.png
+    :scale: 50 %
+
+Lorsque vous éditez un diagramme, vous pouvez modifier le titre ou bien la source de données. Vous ne pouvez plus modifier son type. Pour cela, il faut à nouveau créer un diagramme.

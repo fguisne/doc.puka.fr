@@ -1,0 +1,37 @@
+Exporter des données
+====================
+
+Nous fournissons des fonctions d'export pour que vous puissiez exploiter les données dans d'autres logiciels ou dans des perspectives de migration.
+
+
+
+Exporter un tableau de données
+------------------------------
+
+Vous pouvez exporter l'ensemble du tableau de données de vos formulaires aux formats Excel (.xlsx) et CSV (.csv).
+
+Il pour cela, à partir du tableau de bord, vous rendre dans le menu des fonctionnalités avancées et sélectionner "Exporter".
+
+.. figure::  img/export/export-menu.png
+
+Vous avez ensuite le choix du format.
+
+.. figure::  img/export/export.png
+
+Il ne vous reste plus qu'à cliquer sur Exporter pour obtenir votre fichier. Selon le nombre de lignes dans la base, l'export peut prendre plusieurs secondes.
+
+
+Exporter une entrée
+-------------------
+
+Vous pouvez également exporter une entrée individuelle pour obtenir un document à partir des données.
+
+Il faudra au préalable ajouter un Modèle dans votre formulaire. Vous trouvez la documentation sur ce processus sur la page Gestion des modèles.
+
+Pour exporter une entrée, vous devez vous rendre sur sa page de visualisation.
+
+.. figure::  img/export/modele.png
+
+Vous avez ensuite un menu disponible en haut de page qui vous proposer d'exporter l'entrée avec le template de votre choix. Une fois votre modèle choisi, puka vous proposera de télécharger un fichier contenant les informations de votre entrée.
+
+

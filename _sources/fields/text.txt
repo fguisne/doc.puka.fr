@@ -1,0 +1,28 @@
+Les champs *Texte*
+===================
+Les champs *texte* permettent de stocker du texte libre.
+ 
+Attributs communs
+-----------------
+===================  ========== ============
+Attribut             Modifiable Rôle
+===================  ========== ============
+Nom                  Oui        Nom du champ (obligatoire)
+Aide                 Oui        Message d'aide affiché à la saisie et qui permet de guider l'utilisateur
+===================  ========== ============
+
+Attributs spécifiques
+---------------------
+===================  ========== ============
+Attribut             Modifiable Rôle
+===================  ========== ============
+Obligatoire          Oui [1]_   Obligation de renseigner ce champ
+Formaté              Non        :term:`Texte formaté`
+Longueur maximale    Oui [1]_   Taille maximale autorisée en saisie, exprimée en nombre de caractères
+Validateur           Oui [1]_   Spécifie un type de texte attendu spécifique (e-mail, n° de téléphone)
+===================  ========== ============
+
+
+.. rubric:: Notes
+
+.. [1] La modification de cet attribut est possible mais peut entraîner une incohérence dans les données. Un champ devenu 
