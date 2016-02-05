@@ -1,16 +1,75 @@
-Compte Utiilsateur
+Compte Utilisateur
 ==================
 
 Cette section vous permet de configurer votre compte utilisateur.
+L'écran est divisé en plusieurs onglets afin d'en simplifier la lecture.
 
-TODO
+Profil
+------
+Ce premier onlget présente les informations générales de votre compte.
+Vous y trouverez : 
 
-.. figure::  img/account_profile.png
+* le mail associé au compte. Cette information est non modifiable. Si vous devez changer de mail, `contactez-nous <http://www.puka.fr/contact.html>`_ .
+* votre nom et votre prénom. Ces informations facultatives permettent de remplacer votre e-mail dans les références qui peuvent être faites à votre compte dans l'application (membres d'une équipe par exemple)
+
+.. figure::  img/account/profile.png
    :align:   center
-.. figure::  img/account_password.png
+   
+Mot de passe
+------------
+Cet onglet vous permet de modifier votre mot de passe.
+La seule contrainte imposée pour votre compte puka, est la taille de votre mot de passe, qui doit être de 8 caractères au minimum.
+Au-delà de cette contrainte, il est important de bien protéger vos données en choisissant un mot de passe ayant une certaine complexité :
+
+* évitez les séquences type : "abcdef", "azerty", "123456"
+* évitez les mots de passe trop simples (notre nom, mail, ou un mot-clé type "password")
+* dans la mesure du possible, n'utilisez pas un même mot de passe sur différents sites
+
+Pour vous guider dans le choix d'un mot de passe, un calculateur de complexité est intégré à la zone de saisie du mot de passe. 
+Cet indicateur est purement informatif. Il est de la responsabilité d'un utilisateur de choisir un bon mot de passe. 
+
+* un indicateur rouge indique un mot de passe de complexité faible. Il est conseillé de choisir un autre mot de passe
+* un indicateur jaune indique un mot de passe de complexité moyenne. Il peut être conservé, mais pourrait être amélioré
+* un indicateur vert indique un mot de passe de complexité forte. Il est un choix judicieux et peut être utilisé 
+
+Pour valider un changement de mot de passe, celui-ci devra être saisi 2 fois afin d'éviter les erreurs de saisie. 
+En cas de perte de mot de passe, il est possible, depuis le page de connexion, de demander une réinitialisation de celui-ci. 
+
+.. figure::  img/account/password.png
    :align:   center
-.. figure::  img/account_settings.png
+
+Paramètres
+----------
+Cet onglet vous permet de renseigner des paramètres d'utilisation de l'application.
+Pour que les modifications soit prises en compte, il faut activer le bouton "Enregistrer" en bas de page.
+Vous pouvez ainsi modifier :
+ 
+ * la langue (par défaut en Français). Puka est également disponible en *Anglais*. Le changement de langue de l'application se fait à la volée, il est inutile de se déconnecter.
+ * le format de date (par défaut 31/01/2016). Puka propose d'autres formats : année sur 2 chiffres, mois en lettres, ...
+ * les préférences e-mail. Ces options permettent de déterminer si un mail est envoyé à l'adresse associée au compte lorsqu'un message interne est reçu par le compte utilisateur, en fonction de son type. Pour plus d'informations sur les messages, voir la `page dédiée <message.html>`_ 
+   
+.. figure::  img/account/settings.png
    :align:   center
-.. figure::  img/account_licence.png
+
+Licence
+-------
+Cet onglet vous donne des informations sur votre licence actuelle et sa date de fin.
+
+Si vous n'êtes pas en version d'essai, l'état de votre utilisation vis-à-vis des quotas de votre licence est détaillé :
+
+* Liste des utilisateurs rattachés à votre licence 
+* Nombre de formulaires
+* Nombre d'équipes
+* Nombre d'enregistrements
+* Volume des pièces jointes
+
+Une zone de texte "Clé de licence" est présente sur cette page. Si vous êtes rattaché à une licence, cette zone n'est pas modifiable et affiche votre numéro de clé.
+En version d'essai, cette zone permet de saisir un numéro de licence qui a été acheté par la structure à laquelle vous appartenez. 
+Rapprochez-vous de la personne ayant acheté la licence pour obtenir le n° de cette clé.
+Si vous avez acheté une licence multi-utilsateurs, communiquez cette clé auprès de vos collègues. Sur cet onglet vous pouvez suivre les comptes rattachés à votre licence. 
+
+Enfin, cette page propose un lien vers nos formules tarifaires. Vous pouvez les consulter pour obtenir une licence ou prendre `contact <http://www.puka.fr/offres.html>`_ avec nous pour obtenir un devis spécialisé.
+
+.. figure::  img/account/licence.png
    :align:   center
 

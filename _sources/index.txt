@@ -3,33 +3,27 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Bienvenue dans la documentation de Puka
-=======================================
+Documentation puka
+==================
 
 Table des matières:
 
 .. toctree::
-   :maxdepth: 2
+   :includehidden:
    
-   glossary
-   
-   introduction
-   tutorial
    interface
    account
    message
    charts
    import
    export
+   template
    partage
    references
    fields/fields
-   fields/text
-   fields/checkbox
+   glossary
+   
 
-Index
-===============
 
-* :ref:`genindex`
 
 

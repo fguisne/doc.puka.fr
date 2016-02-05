@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Les champs Case à cocher &mdash; documentation Puka 0.6</title>
+  <title>Les champs Case à cocher &mdash; documentation Puka </title>
   
 
   
@@ -30,8 +30,10 @@
   
 
   
-    <link rel="top" title="documentation Puka 0.6" href="../index.html"/>
-        <link rel="prev" title="Les champs Texte" href="text.html"/> 
+    <link rel="top" title="documentation Puka " href="../index.html"/>
+        <link rel="up" title="Les champs d’un formulaire" href="fields.html"/>
+        <link rel="next" title="Les champs Texte" href="text.html"/>
+        <link rel="prev" title="Les champs d’un formulaire" href="fields.html"/> 
 
   
   <script src="../_static/js/modernizr.min.js"></script>
@@ -58,10 +60,6 @@
           
             
             
-              <div class="version">
-                0.6
-              </div>
-            
           
 
           
@@ -81,24 +79,32 @@
             
             
                 <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../glossary.html">Glossaire</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../introduction.html">Introduction</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../tutorial.html">Tutorial</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../interface.html">L&#8217;interface de puka</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../account.html">Compte Utiilsateur</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../account.html">Compte Utilisateur</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../message.html">Messagerie</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../charts.html">Diagrammes</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../import.html">Import de données</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../export.html">Exporter des données</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../template.html">Modèles</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../partage.html">Formulaires publics</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../references.html">Références</a></li>
-<li class="toctree-l1"><a class="reference internal" href="fields.html">Les champs d&#8217;un formulaire</a></li>
-<li class="toctree-l1"><a class="reference internal" href="text.html">Les champs <em>Texte</em></a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="">Les champs <em>Case à cocher</em></a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#attributs-communs">Attributs communs</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#attributs-specifiques">Attributs spécifiques</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="fields.html">Les champs d&#8217;un formulaire</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="fields.html#modifier-les-champs-d-un-formulaire">Modifier les champs d&#8217;un formulaire</a></li>
+<li class="toctree-l2"><a class="reference internal" href="fields.html#ajouter-un-champ">Ajouter un champ</a></li>
+<li class="toctree-l2"><a class="reference internal" href="fields.html#modifier-un-champ">Modifier un champ</a></li>
+<li class="toctree-l2"><a class="reference internal" href="fields.html#supprimer-un-champ">Supprimer un champ</a></li>
+<li class="toctree-l2"><a class="reference internal" href="fields.html#modifier-l-ordre-des-champs">Modifier l&#8217;ordre des champs</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="fields.html#les-differents-types-de-champs">Les différents types de champs</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="">Les champs <em>Case à cocher</em></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#attributs-specifiques">Attributs spécifiques</a></li>
 </ul>
 </li>
+<li class="toctree-l3"><a class="reference internal" href="text.html">Les champs <em>Texte</em></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary.html">Glossaire</a></li>
 </ul>
 
             
@@ -129,6 +135,8 @@
   <ul class="wy-breadcrumbs">
     <li><a href="../index.html">Documentation</a> &raquo;</li>
       
+        <li><a href="fields.html">Les champs d&#8217;un formulaire</a> &raquo;</li>
+      
     <li>Les champs <em>Case à cocher</em></li>
     <li class="wy-breadcrumbs-aside">
       
@@ -144,32 +152,6 @@
   <div class="section" id="les-champs-case-a-cocher">
 <h1>Les champs <em>Case à cocher</em><a class="headerlink" href="#les-champs-case-a-cocher" title="Lien permanent vers ce titre">¶</a></h1>
 <p>Les champs <em>case à cocher</em> permettent de stocker des valeurs de type vrai/faux.</p>
-<div class="section" id="attributs-communs">
-<h2>Attributs communs<a class="headerlink" href="#attributs-communs" title="Lien permanent vers ce titre">¶</a></h2>
-<table border="1" class="docutils">
-<colgroup>
-<col width="18%" />
-<col width="10%" />
-<col width="72%" />
-</colgroup>
-<thead valign="bottom">
-<tr class="row-odd"><th class="head">Attribut</th>
-<th class="head">Modifiable</th>
-<th class="head">Rôle</th>
-</tr>
-</thead>
-<tbody valign="top">
-<tr class="row-even"><td>Nom</td>
-<td>Oui</td>
-<td>Nom du champ (obligatoire)</td>
-</tr>
-<tr class="row-odd"><td>Aide</td>
-<td>Oui</td>
-<td>Message d&#8217;aide affiché à la saisie et qui permet de guider l&#8217;utilisateur</td>
-</tr>
-</tbody>
-</table>
-</div>
 <div class="section" id="attributs-specifiques">
 <h2>Attributs spécifiques<a class="headerlink" href="#attributs-specifiques" title="Lien permanent vers ce titre">¶</a></h2>
 <p><em>Aucun</em></p>
@@ -183,8 +165,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
+        <a href="text.html" class="btn btn-neutral float-right" title="Les champs Texte" accesskey="n">Suivant <span class="fa fa-arrow-circle-right"></span></a>
       
-        <a href="text.html" class="btn btn-neutral" title="Les champs Texte" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Précédent</a>
+      
+        <a href="fields.html" class="btn btn-neutral" title="Les champs d’un formulaire" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Précédent</a>
       
     </div>
   
@@ -215,7 +199,7 @@
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../',
-            VERSION:'0.6',
+            VERSION:'',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
             HAS_SOURCE:  true

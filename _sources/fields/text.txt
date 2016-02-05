@@ -2,15 +2,6 @@ Les champs *Texte*
 ===================
 Les champs *texte* permettent de stocker du texte libre.
  
-Attributs communs
------------------
-===================  ========== ============
-Attribut             Modifiable Rôle
-===================  ========== ============
-Nom                  Oui        Nom du champ (obligatoire)
-Aide                 Oui        Message d'aide affiché à la saisie et qui permet de guider l'utilisateur
-===================  ========== ============
-
 Attributs spécifiques
 ---------------------
 ===================  ========== ============

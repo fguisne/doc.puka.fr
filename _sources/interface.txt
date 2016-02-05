@@ -6,7 +6,7 @@ L'entête de page
 ----------------
 Cette section propose des éléments non liés à la page en cours de visualisation.
 
-.. figure::  img/header.png
+.. figure::  img/interface/header.png
    :align:   center
 
 Vous y trouverez :
@@ -22,7 +22,7 @@ Le fil d'Ariane
 Cette barre de navigation, présente sur toutes les pages, à l'exception de la page d'accueil, permet d'indiquer dans quelle section vous vous trouvez.
 Active, il est possible de cliquer sur niveau de ce fil pour afficher les informations correspondantes.
 
-.. figure::  img/breadcrumb.png
+.. figure::  img/interface/breadcrumb.png
    :align:   center
 
 L'arborescence pour les formulaires est la suivante :
@@ -33,7 +33,7 @@ Le pied de page
 ---------------
 Cette section propose des éléments fixes pour tous les utilisateurs.
 
-.. figure::  img/footer.png
+.. figure::  img/interface/footer.png
    :align:   center
 
 Vous y trouverez :

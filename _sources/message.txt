@@ -2,3 +2,51 @@ Messagerie
 ==========
 
 Cette section vous permet de consulter les messages liés à l'application **puka**.
+Puka propose un écran de consultation des messages envoyés à un utilisateur de l'application.
+Selon les `préférences utilisateur <account.html#parametres>`_, les messages reçus peuvent générer des mails envoyés sur l'adresse mail du compte.
+
+Les types de messages
+---------------------
+Il existe 3 types de messages dans l'application :
+
+* les messages d'administration
+* les messages d'invitation
+* les messages de notification
+
+Les messages d'administration
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Ces messages concernent l'activation du compte ou la réinitialisation du mot de passe. L'envoi d'un mail dans la boîte mail du compte n'est pas paramétrable.
+Ils permettent de garder une trace des opérations effectuées sur le compte.
+
+Les messages d'invitation
+^^^^^^^^^^^^^^^^^^^^^^^^^
+Ces messages sont envoyés par un utilisateur à un autre afin de rejoindre une équipe.
+Lorsqu'un utilisateur reçoit une invitation, il dot traiter le message avant de pouvoir le supprimer.
+Une invitation peur être acceptée ou refusée. 
+
+.. figure::  img/messages/invitation.png
+   :align:   center
+
+Les messages de notification
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Ces messages sont envoyés pour chaque entrée ajoutée sur un formulaire auquel l'utilisateur s'est inscrit. 
+Le message propose un lien vers l'entrée ajoutée.
+
+.. figure::  img/messages/notification.png
+   :align:   center
+
+L'écran de consultation des messages
+------------------------------------
+Cet écran, accessible depuis la barre de navigation, vous permet de gérer vos messages internes.
+Il liste tous les messages reçus, les plus récents en premier. Les informations affichées sont les suivantes :
+
+* le type de message
+* le sujet du message. Vous pouvez cliquer sur ce message pour accéder aux détails
+* la date de réception du message
+* l'expéditeur du message
+
+Il est possible de supprimer un message en cliquant sur la croix en fin de ligne. Cette croix n'est pas affichée si le message n'a pas été traité.
+
+.. figure::  img/messages/inbox.png
+   :align:   center
+

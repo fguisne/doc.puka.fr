@@ -1,7 +1,7 @@
 Les champs d'un formulaire
 ===========================
 Puka vous permet de stocker vos données au travers de différents type de champs.
-Ces types permettent d'apportent certaines contraintes sur vos données et ainsi de s'assurer de la cohérence des données.
+Ces types permettent d'apportent certaines contraintes sur vos données et ainsi de s'assurer de leur cohérence.
 
 Modifier les champs d'un formulaire
 -----------------------------------
@@ -43,8 +43,12 @@ Les détails d'utilisation de chacun de ces types sont détaillés dans la secti
 
 Les attributs présents sur tous les types de champs sont les suivants :
 
-* Nom (obligatoire) : le nom du champ
-* Aide : un message d'aide affiché à la saisie et qui permet de guider l'utilisateur
+===================  ========== ============
+Attribut             Modifiable Rôle
+===================  ========== ============
+Nom                  Oui        Nom du champ (obligatoire)
+Aide                 Oui        Message d'aide affiché à la saisie et qui permet de guider l'utilisateur
+===================  ========== ============
 
 Modifier un champ
 -----------------
@@ -66,4 +70,11 @@ Pour modifier l'ordre des champs, déplacez verticalement la boîte indiquée pa
 Pour valider le nouvel ordre des champs, activer le bouton : "Enregistrer l'ordre des champs".
 
 
+Les différents types de champs
+------------------------------
 
+.. toctree::
+   :maxdepth: 1
+
+   checkbox
+   text

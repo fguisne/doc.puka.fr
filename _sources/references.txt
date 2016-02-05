@@ -12,7 +12,7 @@ Un formulaire peut se référencer lui-même.
 Une référence peut être :
 
 * simple : un seul enregistrement du formulaire lié pourra être sélectionné
-* multiple : plusieurs enregistrements du formulaire liés pourront être sélectionnés
+* multiple : plusieurs enregistrements du formulaire lié pourront être sélectionnés
 
 Ci-dessous, un exemple de référencement d'un formulaire :
 Le formulaire "Personnes" est lié à lui-même afin d'associer une personne à son conjoint (facultatif).

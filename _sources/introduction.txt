@@ -1,4 +1,8 @@
 Introduction
 ============
 
-Bienvenue dans la documentation de Puka.
+Bienvenue dans la documentation de puka.
+
+Ce site regroupe la documentation référence du logiciel. Si vous découvrez pour la premier puka, nous vous conseillons de faire un tour par le :doc:`tutorial` qui vous indiquera comment créer un formulaire de contact.
+
+Le document :doc:`interface` reprends les grandes zones affichées sur votre page d'accueil une fois la connexion effectuée.

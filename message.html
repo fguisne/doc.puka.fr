@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Messagerie &mdash; documentation Puka 0.6</title>
+  <title>Messagerie &mdash; documentation Puka </title>
   
 
   
@@ -30,9 +30,9 @@
   
 
   
-    <link rel="top" title="documentation Puka 0.6" href="index.html"/>
+    <link rel="top" title="documentation Puka " href="index.html"/>
         <link rel="next" title="Diagrammes" href="charts.html"/>
-        <link rel="prev" title="Compte Utiilsateur" href="account.html"/> 
+        <link rel="prev" title="Compte Utilisateur" href="account.html"/> 
 
   
   <script src="_static/js/modernizr.min.js"></script>
@@ -59,10 +59,6 @@
           
             
             
-              <div class="version">
-                0.6
-              </div>
-            
           
 
           
@@ -82,20 +78,26 @@
             
             
                 <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="glossary.html">Glossaire</a></li>
-<li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction</a></li>
-<li class="toctree-l1"><a class="reference internal" href="tutorial.html">Tutorial</a></li>
 <li class="toctree-l1"><a class="reference internal" href="interface.html">L&#8217;interface de puka</a></li>
-<li class="toctree-l1"><a class="reference internal" href="account.html">Compte Utiilsateur</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="">Messagerie</a></li>
+<li class="toctree-l1"><a class="reference internal" href="account.html">Compte Utilisateur</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="">Messagerie</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#les-types-de-messages">Les types de messages</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#les-messages-d-administration">Les messages d&#8217;administration</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#les-messages-d-invitation">Les messages d&#8217;invitation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#les-messages-de-notification">Les messages de notification</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#l-ecran-de-consultation-des-messages">L&#8217;écran de consultation des messages</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="charts.html">Diagrammes</a></li>
 <li class="toctree-l1"><a class="reference internal" href="import.html">Import de données</a></li>
 <li class="toctree-l1"><a class="reference internal" href="export.html">Exporter des données</a></li>
+<li class="toctree-l1"><a class="reference internal" href="template.html">Modèles</a></li>
 <li class="toctree-l1"><a class="reference internal" href="partage.html">Formulaires publics</a></li>
 <li class="toctree-l1"><a class="reference internal" href="references.html">Références</a></li>
 <li class="toctree-l1"><a class="reference internal" href="fields/fields.html">Les champs d&#8217;un formulaire</a></li>
-<li class="toctree-l1"><a class="reference internal" href="fields/text.html">Les champs <em>Texte</em></a></li>
-<li class="toctree-l1"><a class="reference internal" href="fields/checkbox.html">Les champs <em>Case à cocher</em></a></li>
+<li class="toctree-l1"><a class="reference internal" href="glossary.html">Glossaire</a></li>
 </ul>
 
             
@@ -140,7 +142,55 @@
             
   <div class="section" id="messagerie">
 <h1>Messagerie<a class="headerlink" href="#messagerie" title="Lien permanent vers ce titre">¶</a></h1>
-<p>Cette section vous permet de consulter les messages liés à l&#8217;application <strong>puka</strong>.</p>
+<p>Cette section vous permet de consulter les messages liés à l&#8217;application <strong>puka</strong>.
+Puka propose un écran de consultation des messages envoyés à un utilisateur de l&#8217;application.
+Selon les <a class="reference external" href="account.html#parametres">préférences utilisateur</a>, les messages reçus peuvent générer des mails envoyés sur l&#8217;adresse mail du compte.</p>
+<div class="section" id="les-types-de-messages">
+<h2>Les types de messages<a class="headerlink" href="#les-types-de-messages" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Il existe 3 types de messages dans l&#8217;application :</p>
+<ul class="simple">
+<li>les messages d&#8217;administration</li>
+<li>les messages d&#8217;invitation</li>
+<li>les messages de notification</li>
+</ul>
+<div class="section" id="les-messages-d-administration">
+<h3>Les messages d&#8217;administration<a class="headerlink" href="#les-messages-d-administration" title="Lien permanent vers ce titre">¶</a></h3>
+<p>Ces messages concernent l&#8217;activation du compte ou la réinitialisation du mot de passe. L&#8217;envoi d&#8217;un mail dans la boîte mail du compte n&#8217;est pas paramétrable.
+Ils permettent de garder une trace des opérations effectuées sur le compte.</p>
+</div>
+<div class="section" id="les-messages-d-invitation">
+<h3>Les messages d&#8217;invitation<a class="headerlink" href="#les-messages-d-invitation" title="Lien permanent vers ce titre">¶</a></h3>
+<p>Ces messages sont envoyés par un utilisateur à un autre afin de rejoindre une équipe.
+Lorsqu&#8217;un utilisateur reçoit une invitation, il dot traiter le message avant de pouvoir le supprimer.
+Une invitation peur être acceptée ou refusée.</p>
+<div class="figure align-center">
+<img alt="_images/invitation.png" src="_images/invitation.png" />
+</div>
+</div>
+<div class="section" id="les-messages-de-notification">
+<h3>Les messages de notification<a class="headerlink" href="#les-messages-de-notification" title="Lien permanent vers ce titre">¶</a></h3>
+<p>Ces messages sont envoyés pour chaque entrée ajoutée sur un formulaire auquel l&#8217;utilisateur s&#8217;est inscrit.
+Le message propose un lien vers l&#8217;entrée ajoutée.</p>
+<div class="figure align-center">
+<img alt="_images/notification.png" src="_images/notification.png" />
+</div>
+</div>
+</div>
+<div class="section" id="l-ecran-de-consultation-des-messages">
+<h2>L&#8217;écran de consultation des messages<a class="headerlink" href="#l-ecran-de-consultation-des-messages" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Cet écran, accessible depuis la barre de navigation, vous permet de gérer vos messages internes.
+Il liste tous les messages reçus, les plus récents en premier. Les informations affichées sont les suivantes :</p>
+<ul class="simple">
+<li>le type de message</li>
+<li>le sujet du message. Vous pouvez cliquer sur ce message pour accéder aux détails</li>
+<li>la date de réception du message</li>
+<li>l&#8217;expéditeur du message</li>
+</ul>
+<p>Il est possible de supprimer un message en cliquant sur la croix en fin de ligne. Cette croix n&#8217;est pas affichée si le message n&#8217;a pas été traité.</p>
+<div class="figure align-center">
+<img alt="_images/inbox.png" src="_images/inbox.png" />
+</div>
+</div>
 </div>
 
 
@@ -153,7 +203,7 @@
         <a href="charts.html" class="btn btn-neutral float-right" title="Diagrammes" accesskey="n">Suivant <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="account.html" class="btn btn-neutral" title="Compte Utiilsateur" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Précédent</a>
+        <a href="account.html" class="btn btn-neutral" title="Compte Utilisateur" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Précédent</a>
       
     </div>
   
@@ -184,7 +234,7 @@
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'./',
-            VERSION:'0.6',
+            VERSION:'',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
             HAS_SOURCE:  true
