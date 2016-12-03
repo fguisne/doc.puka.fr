@@ -30,6 +30,9 @@
   
 
   
+        <link rel="index" title="Index"
+              href="genindex.html"/>
+        <link rel="search" title="Recherche" href="search.html"/>
     <link rel="top" title="documentation Puka " href="index.html"/>
         <link rel="next" title="Exporter des données" href="export.html"/>
         <link rel="prev" title="Diagrammes" href="charts.html"/> 
@@ -82,10 +85,10 @@
 <li class="toctree-l1"><a class="reference internal" href="account.html">Compte Utilisateur</a></li>
 <li class="toctree-l1"><a class="reference internal" href="message.html">Messagerie</a></li>
 <li class="toctree-l1"><a class="reference internal" href="charts.html">Diagrammes</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="">Import de données</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Import de données</a></li>
 <li class="toctree-l1"><a class="reference internal" href="export.html">Exporter des données</a></li>
 <li class="toctree-l1"><a class="reference internal" href="template.html">Modèles</a></li>
-<li class="toctree-l1"><a class="reference internal" href="partage.html">Formulaires publics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="share.html">Formulaires publics</a></li>
 <li class="toctree-l1"><a class="reference internal" href="references.html">Références</a></li>
 <li class="toctree-l1"><a class="reference internal" href="fields/fields.html">Les champs d&#8217;un formulaire</a></li>
 <li class="toctree-l1"><a class="reference internal" href="glossary.html">Glossaire</a></li>
@@ -111,7 +114,7 @@
         <div class="rst-content">
           
 
-
+ 
 
 
 
@@ -142,21 +145,17 @@
 </ul>
 </dd>
 </dl>
-<p>Puka supporte l&#8217;import de la plupart des types de champs, <em>à l&#8217;exception des références et des étiquettes</em>.</p>
-<p>Si vous n&#8217;avez pas encore de données dans votre base, vous pouvez supprimer temporairement ces champs, importer vos données, puis les récréer.</p>
-<p>Puka utilise l&#8217;ordre des champs et des colonnes pour importer les données. Les noms n&#8217;ont pas d&#8217;importance.</p>
+<p>Puka utilise l&#8217;ordre des champs et des colonnes pour importer les données. Les noms précisés dans les en-tête n&#8217;ont pas d&#8217;importance.</p>
 <dl class="docutils">
 <dt>Il existe également quelques limitations pour les champs suivants :</dt>
 <dd><ul class="first last simple">
 <li>case à cocher : lors de l&#8217;import, si une valeur est présente (peu importe laquelle), la case est cochée, sinon elle est décochée</li>
 <li>champs calculés : peu importe les valeurs présentes dans le fichier d&#8217;import, la valeur finale sera recalculée suite à l&#8217;import</li>
+<li>choix multiples, étiquettes, références : support uniquement pour les champs avec une valeur unique</li>
 </ul>
 </dd>
 </dl>
 <p>Pour importer des données, cliquez tout d&#8217;abord sur le formulaire concerné. Rendez vous ensuite dans le menu Fonctionnalités Avancés, puis cliquez sur Importer.</p>
-<div class="figure">
-<img alt="_images/menu-import.png" src="_images/menu-import.png" />
-</div>
 <p>Cette nouvelle page vous propose plusieurs options.</p>
 <ul class="simple">
 <li>Type d&#8217;import : Sélectionnez le format de votre fichier</li>
@@ -169,8 +168,8 @@
 </div>
 <p>Il ne vous reste plus qu&#8217;à cliquer sur le bouton Importer.</p>
 <p>Cette étape peut être relativement longue si vous avez de nombreuses lignes à importer. Si vous souhaitez continuer à utiliser l&#8217;application pendant cet import, nous vous conseillons de le faire dans une nouvelle fenêtre de votre navigateur.</p>
-<p>Une fois l&#8217;import terminé, la page vous affichera pour chacune des limites si l&#8217;import a été effectué correctement (&#8220;OK&#8221;) et sinon, quel champ ou quelle valeur a posé problème pour chacune des lignes.</p>
-<p>Il vous appartient de modifier votre fichier à importer pour ne conserver que les lignes qui n&#8217;ont pas été importées si vous souhaitez les importer à nouveau. Sans cela, vous risquez de créer des lignes doublons.</p>
+<p>Une fois l&#8217;import terminé, la page vous affichera pour chacune des lignes si l&#8217;import a été effectué correctement (&#8220;OK&#8221;) et sinon, quel champ ou quelle valeur a posé problème.</p>
+<p>Il vous appartient de modifier votre fichier à importer pour ne conserver que les lignes qui n&#8217;ont pas été importées la première fois, si vous souhaitez les importer à nouveau. Sinon, vous risquez de créer des lignes doublons.</p>
 </div>
 
 

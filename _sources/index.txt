@@ -6,6 +6,10 @@
 Documentation puka
 ==================
 
+Bienvenue dans la documentation de puka. Pour plus d'informations sur les fonctionnalités proposées par notre application, rendez vous sur notre `site internet <http://www.puka.fr>`_.
+
+L'application est disponible à l'adresse suivante : `app.puka.fr <https://app.puka.fr>`_. 
+
 Table des matières:
 
 .. toctree::
@@ -18,7 +22,7 @@ Table des matières:
    import
    export
    template
-   partage
+   share
    references
    fields/fields
    glossary

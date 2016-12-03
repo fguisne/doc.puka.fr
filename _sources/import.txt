@@ -6,21 +6,15 @@ Puka vous permet d'importer des données existantes depuis différentes sources.
 Vous pouvez importer des données depuis des fichiers aux formats :
  * CSV (comma separated values) :  un fichier texte qui indique les différentes colonnes en les séparant par des virgules ou point-virgules (extensions .csv ou .txt)
  * Excel : le format de l'application Office Excel (extension .xls ou .xlsx)
- 
-Puka supporte l'import de la plupart des types de champs, *à l'exception des références et des étiquettes*. 
 
-Si vous n'avez pas encore de données dans votre base, vous pouvez supprimer temporairement ces champs, importer vos données, puis les récréer.
-
-Puka utilise l'ordre des champs et des colonnes pour importer les données. Les noms n'ont pas d'importance.
+Puka utilise l'ordre des champs et des colonnes pour importer les données. Les noms précisés dans les en-tête n'ont pas d'importance.
 
 Il existe également quelques limitations pour les champs suivants : 
  * case à cocher : lors de l'import, si une valeur est présente (peu importe laquelle), la case est cochée, sinon elle est décochée
  * champs calculés : peu importe les valeurs présentes dans le fichier d'import, la valeur finale sera recalculée suite à l'import
- 
+ * choix multiples, étiquettes, références : support uniquement pour les champs avec une valeur unique
  
 Pour importer des données, cliquez tout d'abord sur le formulaire concerné. Rendez vous ensuite dans le menu Fonctionnalités Avancés, puis cliquez sur Importer.
-
-.. figure::  img/import/menu-import.png
 
 Cette nouvelle page vous propose plusieurs options.
 
@@ -35,6 +29,6 @@ Il ne vous reste plus qu'à cliquer sur le bouton Importer.
 
 Cette étape peut être relativement longue si vous avez de nombreuses lignes à importer. Si vous souhaitez continuer à utiliser l'application pendant cet import, nous vous conseillons de le faire dans une nouvelle fenêtre de votre navigateur.
 
-Une fois l'import terminé, la page vous affichera pour chacune des limites si l'import a été effectué correctement ("OK") et sinon, quel champ ou quelle valeur a posé problème pour chacune des lignes.
+Une fois l'import terminé, la page vous affichera pour chacune des lignes si l'import a été effectué correctement ("OK") et sinon, quel champ ou quelle valeur a posé problème.
 
-Il vous appartient de modifier votre fichier à importer pour ne conserver que les lignes qui n'ont pas été importées si vous souhaitez les importer à nouveau. Sans cela, vous risquez de créer des lignes doublons.
+Il vous appartient de modifier votre fichier à importer pour ne conserver que les lignes qui n'ont pas été importées la première fois, si vous souhaitez les importer à nouveau. Sinon, vous risquez de créer des lignes doublons.

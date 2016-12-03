@@ -11,9 +11,6 @@ Ces fonctions sont accessibles au niveau formulaire.
 1. Accédez au tableau de bord d'un formulaire
 2. Sélectionnez la fonctionnalité "Modifier les champs" depuis le menu "Fonctionnalités avancées"
 
-.. figure::  /img/fields/menu.png
-   :align:   center
-
 La page présente l'ensemble des champs du formulaire en cours, dans l'ordre de saisie.
 
 .. figure::  /img/references/fields.png

@@ -1,12 +1,13 @@
 Compte Utilisateur
 ==================
 
+Pour accéder à votre compte utilisateur, cliquez sur nom (ou adresse email) dans la barre de navigation, en haut à droite.
 Cette section vous permet de configurer votre compte utilisateur.
 L'écran est divisé en plusieurs onglets afin d'en simplifier la lecture.
 
 Profil
 ------
-Ce premier onlget présente les informations générales de votre compte.
+Ce premier onglet présente les informations générales de votre compte.
 Vous y trouverez : 
 
 * le mail associé au compte. Cette information est non modifiable. Si vous devez changer de mail, `contactez-nous <http://www.puka.fr/contact.html>`_ .
@@ -22,7 +23,7 @@ La seule contrainte imposée pour votre compte puka, est la taille de votre mot 
 Au-delà de cette contrainte, il est important de bien protéger vos données en choisissant un mot de passe ayant une certaine complexité :
 
 * évitez les séquences type : "abcdef", "azerty", "123456"
-* évitez les mots de passe trop simples (notre nom, mail, ou un mot-clé type "password")
+* évitez les mots de passe trop simples (votre nom, mail, ou un mot-clé type "password")
 * dans la mesure du possible, n'utilisez pas un même mot de passe sur différents sites
 
 Pour vous guider dans le choix d'un mot de passe, un calculateur de complexité est intégré à la zone de saisie du mot de passe. 
@@ -41,13 +42,14 @@ En cas de perte de mot de passe, il est possible, depuis le page de connexion, d
 Paramètres
 ----------
 Cet onglet vous permet de renseigner des paramètres d'utilisation de l'application.
-Pour que les modifications soit prises en compte, il faut activer le bouton "Enregistrer" en bas de page.
 Vous pouvez ainsi modifier :
  
- * la langue (par défaut en Français). Puka est également disponible en *Anglais*. Le changement de langue de l'application se fait à la volée, il est inutile de se déconnecter.
- * le format de date (par défaut 31/01/2016). Puka propose d'autres formats : année sur 2 chiffres, mois en lettres, ...
- * les préférences e-mail. Ces options permettent de déterminer si un mail est envoyé à l'adresse associée au compte lorsqu'un message interne est reçu par le compte utilisateur, en fonction de son type. Pour plus d'informations sur les messages, voir la `page dédiée <message.html>`_ 
+ * la langue (par défaut en Français). Puka est également disponible en *Anglais*.
+ * le format de date (par défaut 31/01/2016).
+ * les préférences de notifications par e-mail. Ces options permettent de déterminer si un e-mail est envoyé à l'adresse associée au compte lorsqu'une notification est reçue par le compte utilisateur, en fonction de son type. Pour plus d'informations sur les messages, voir :doc:`message`.
    
+Pour que les modifications soient prises en compte, il faut cliquer sur le bouton "Enregistrer" en bas de page.
+
 .. figure::  img/account/settings.png
    :align:   center
 
@@ -60,15 +62,14 @@ Si vous n'êtes pas en version d'essai, l'état de votre utilisation vis-à-vis 
 * Liste des utilisateurs rattachés à votre licence 
 * Nombre de formulaires
 * Nombre d'équipes
-* Nombre d'enregistrements
 * Volume des pièces jointes
 
-Une zone de texte "Clé de licence" est présente sur cette page. Si vous êtes rattaché à une licence, cette zone n'est pas modifiable et affiche votre numéro de clé.
-En version d'essai, cette zone permet de saisir un numéro de licence qui a été acheté par la structure à laquelle vous appartenez. 
-Rapprochez-vous de la personne ayant acheté la licence pour obtenir le n° de cette clé.
-Si vous avez acheté une licence multi-utilsateurs, communiquez cette clé auprès de vos collègues. Sur cet onglet vous pouvez suivre les comptes rattachés à votre licence. 
+Une zone de texte "Clé de licence" est présente sur cette page. Si vous possédez à une licence, cette zone n'est pas modifiable et affiche votre clé de licence.
+En version d'essai, cette zone permet de saisir un numéro de licence. 
+Rapprochez-vous de la personne ayant acheté la licence pour obtenir la clé.
+Si vous avez acheté une licence multi-utilisateurs, communiquez cette clé auprès de vos collègues. Sur cet onglet vous pouvez suivre les comptes rattachés à votre licence. 
 
-Enfin, cette page propose un lien vers nos formules tarifaires. Vous pouvez les consulter pour obtenir une licence ou prendre `contact <http://www.puka.fr/offres.html>`_ avec nous pour obtenir un devis spécialisé.
+Pour obtenir une licence, merci de prendre `contact <http://www.puka.fr/offres.html>`_ avec nous pour obtenir un devis.
 
 .. figure::  img/account/licence.png
    :align:   center

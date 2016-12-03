@@ -30,6 +30,9 @@
   
 
   
+        <link rel="index" title="Index"
+              href="genindex.html"/>
+        <link rel="search" title="Recherche" href="search.html"/>
     <link rel="top" title="documentation Puka " href="index.html"/>
         <link rel="next" title="Références" href="references.html"/>
         <link rel="prev" title="Modèles" href="template.html"/> 
@@ -85,7 +88,7 @@
 <li class="toctree-l1"><a class="reference internal" href="import.html">Import de données</a></li>
 <li class="toctree-l1"><a class="reference internal" href="export.html">Exporter des données</a></li>
 <li class="toctree-l1"><a class="reference internal" href="template.html">Modèles</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="">Formulaires publics</a><ul>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Formulaires publics</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#introduction">Introduction</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#lien-public">Lien public</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#integration-sur-un-site-existant">Intégration sur un site existant</a></li>
@@ -116,7 +119,7 @@
         <div class="rst-content">
           
 
-
+ 
 
 
 
@@ -149,25 +152,22 @@
 <li>en intégrant le formulaire dans un site existant</li>
 </ul>
 </div></blockquote>
-<div class="figure">
-<img alt="_images/partage.png" src="_images/partage.png" />
-</div>
 </div>
 <div class="section" id="lien-public">
 <h2>Lien public<a class="headerlink" href="#lien-public" title="Lien permanent vers ce titre">¶</a></h2>
 <p>Le lien public vous permet de partage le formulaire par email ou sur les réseaux sociaux par exemple. Il se présente sous la forme suivante :</p>
 <blockquote>
 <div><a class="reference external" href="https://app.puka.fr/poll/96/lsgtb84o3jpomh4lk0u8f268vq">https://app.puka.fr/poll/96/lsgtb84o3jpomh4lk0u8f268vq</a></div></blockquote>
-<p>Ces sondages, au même titre que le reste de l&#8217;application, utilisent HTTPS (visible par le cadenas vert dans le navigateur). Vos utilisateurs peuvent donc soumettre leurs réponses sans crainte de fuite de données.</p>
+<p>Ces sondages, au même titre que le reste de l&#8217;application, utilisent le protocole sécurisé HTTPS (visible par le cadenas vert dans le navigateur). Vos utilisateurs peuvent donc soumettre leurs réponses en étant assuré que les données sont chiffrées entre leur navigateur et le serveur de puka.</p>
 </div>
 <div class="section" id="integration-sur-un-site-existant">
 <h2>Intégration sur un site existant<a class="headerlink" href="#integration-sur-un-site-existant" title="Lien permanent vers ce titre">¶</a></h2>
-<p>Vous pouvez également intégrer le formulaire directement sur votre site. Nous utilisons pour cela la technologie <em>iframe</em> qui permet d&#8217;insérer des sites les uns dans les autres.</p>
+<p>Vous pouvez également intégrer le formulaire directement sur votre site. Nous utilisons pour cela la technologie <em>iframe</em> qui permet d&#8217;insérer des contenus facilement d&#8217;un site à l&#8217;autre.</p>
 <p>Le code à insérer est disponible dans les propriétés du formulaire, une fois que le partage de ce dernier a été activé.</p>
 <p>Le formulaire proposé s&#8217;adaptera en largeur à l&#8217;espace disponible dans votre site internet. En revanche la longueur n&#8217;est pas dynamique.</p>
 <p>Pour modifier la longueur, il faut changer la valeur de l&#8217;attribut <em>height</em>.:</p>
-<div class="highlight-python"><div class="highlight"><pre>&lt;iframe style=&#39;width: 100%; height: 500px; border: 0; overflow: hidden&#39; src=&#39;https://app.puka.fr/poll/96/lsgtb84o3jpomh4lk0u8f268vq?iframe=true&#39;&gt;
-&lt;/iframe&gt;
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">&lt;</span><span class="n">iframe</span> <span class="n">style</span><span class="o">=</span><span class="s1">&#39;width: 100%; height: 500px; border: 0; overflow: hidden&#39;</span> <span class="n">src</span><span class="o">=</span><span class="s1">&#39;https://app.puka.fr/poll/96/lsgtb84o3jpomh4lk0u8f268vq?iframe=true&#39;</span><span class="o">&gt;</span>
+<span class="o">&lt;/</span><span class="n">iframe</span><span class="o">&gt;</span>
 </pre></div>
 </div>
 </div>

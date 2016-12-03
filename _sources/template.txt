@@ -8,9 +8,7 @@ Création d'un document modèle
 
 Premièrement, vous devez créer un document qui accueillera vos données. Vous pouvez utiliser l'ensemble des fonctionnalités de votre logiciel Word ou Libreoffice.
 
-Il va falloir à présent insérer des :term:`espaces réservés` qui vont accueillir les données présentes dans votre base. Pour connaître les noms de ces espaces, il faut se rendre dans le menu des modèles à partir du tableau de bord :
-
-.. image:: img/templates/templates-menu.png
+Il va falloir à présent insérer des espaces réservés qui vont accueillir les données présentes dans votre base. Pour connaître les noms de ces espaces, il faut se rendre dans le menu des modèles à partir du tableau de bord :
 
 Une fois sur la page de gestion des modèles, vous trouverez un tableau de correspondance en deuxième partie de page qui vous indiquera pour chacun de votre champ le nom de l'espace réservé associé.
 

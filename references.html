@@ -30,9 +30,12 @@
   
 
   
+        <link rel="index" title="Index"
+              href="genindex.html"/>
+        <link rel="search" title="Recherche" href="search.html"/>
     <link rel="top" title="documentation Puka " href="index.html"/>
         <link rel="next" title="Les champs d’un formulaire" href="fields/fields.html"/>
-        <link rel="prev" title="Formulaires publics" href="partage.html"/> 
+        <link rel="prev" title="Formulaires publics" href="share.html"/> 
 
   
   <script src="_static/js/modernizr.min.js"></script>
@@ -85,8 +88,8 @@
 <li class="toctree-l1"><a class="reference internal" href="import.html">Import de données</a></li>
 <li class="toctree-l1"><a class="reference internal" href="export.html">Exporter des données</a></li>
 <li class="toctree-l1"><a class="reference internal" href="template.html">Modèles</a></li>
-<li class="toctree-l1"><a class="reference internal" href="partage.html">Formulaires publics</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="">Références</a><ul>
+<li class="toctree-l1"><a class="reference internal" href="share.html">Formulaires publics</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Références</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#generalites">Généralités</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#affichage-d-une-reference">Affichage d&#8217;une référence</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#un-cas-pratique-les-reunions">Un cas pratique : les réunions</a></li>
@@ -117,7 +120,7 @@
         <div class="rst-content">
           
 
-
+ 
 
 
 
@@ -144,7 +147,7 @@
 <p>Puka permet de lier 2 formulaires entre eux. Cette liaison permet de proposer des valeurs correspondant aux entrées d&#8217;un autre formulaire.
 La navigation d&#8217;une entrée vers une autre entrée référencée est possible par simple clic sur l&#8217;élément.</p>
 <p>Il n&#8217;est possible de lier entre eux que des formulaires appartenant à la même équipe.
-Un formulaire peut se référencer lui-même.</p>
+Un formulaire peut également se référencer lui-même (utile pour des liens hiérarchiques par exemple).</p>
 <p>Une référence peut être :</p>
 <ul class="simple">
 <li>simple : un seul enregistrement du formulaire lié pourra être sélectionné</li>
@@ -157,7 +160,7 @@ Le formulaire &#8220;Personnes&#8221; est lié à lui-même afin d&#8217;associe
 </div>
 </div>
 <div class="section" id="affichage-d-une-reference">
-<h2>Affichage d&#8217;une référence<a class="headerlink" href="#affichage-d-une-reference" title="Lien permanent vers ce titre">¶</a></h2>
+<span id="references-affichage"></span><h2>Affichage d&#8217;une référence<a class="headerlink" href="#affichage-d-une-reference" title="Lien permanent vers ce titre">¶</a></h2>
 <p>Une référence dans puka est représentée de la manière suivante :</p>
 <div class="figure align-center">
 <img alt="_images/render.png" src="_images/render.png" />
@@ -169,18 +172,18 @@ Ainsi, un formulaire proposant les champs de type <em>texte</em> suivants :</p>
 <li><em>Prénom</em></li>
 </ul>
 <p>proposera des <em>résumés</em> de type : &#8220;DUPONT Jean&#8221;, &#8220;DURANT Stéphane&#8221;.
-Si ce résumé ne vous convient pas (champs à utiliser ou ordre de ces champs), il est possible de le modifier dans les proporiétés du formulaire.</p>
+Si ce résumé ne vous convient pas (champs à utiliser ou ordre de ces champs), il est possible de le modifier dans les propriétés du formulaire.</p>
 <ol class="arabic simple">
 <li>Accédez au tableau de bord du formulaire</li>
 <li>Sélectionnez le menu &#8220;Fontionnalités avancées &gt; Propriétés du formulaire&#8221;</li>
 <li>Cochez la case &#8220;Utiliser un résumé personnalisé (pour références à ce formulaire)&#8221;</li>
 <li>Faites glisser les champs disponibles (de type <em>texte</em>) de la zone &#8220;Champs disponibles&#8221; à &#8220;Champs utilisés&#8221;</li>
-<li>Il est également possible, dans la partie &#8220;Champs utilisés&#8221; de faire glisser les champs verticalement afin de modifier l&#8217;ordre de prise en compte pour la génération du <em>résumé</em></li>
+<li>Il est également possible, dans la partie &#8220;Champs utilisés&#8221; de faire glisser les champs verticalement afin de modifier l&#8217;ordre de prise en compte pour la génération du <em>résumé</em>.</li>
 </ol>
 <div class="figure align-center">
 <img alt="_images/summary.png" src="_images/summary.png" />
 </div>
-<p>Il est à noter, que si un formulaire ne comporte pas de champs de type <em>texte</em> (ce qui est déconseillé dans le cas d&#8217;utilisations de références sur ce champ)
+<p>Il est à noter que si un formulaire ne comporte pas de champs de type <em>texte</em> (ce qui est déconseillé dans le cas d&#8217;utilisations de références sur ce champ)
 un résumé sera néanmoins généré. Il portera pour chacun des enregistrements le nom du formulaire.</p>
 </div>
 <div class="section" id="un-cas-pratique-les-reunions">
@@ -203,7 +206,7 @@ et qui sont les participants.</p>
 <li>Sur le formulaire &#8220;Réunions&#8221;, ajoutez un champ de type <em>référence</em>.</li>
 <li>Nommez ce champ &#8220;Participants&#8221;, cochez la case <em>Sélection multiple</em> et indiquez le <em>formulaire référencé</em> : &#8220;Personnes&#8221;</li>
 </ol>
-<p>Vous devrier avoir une liste de champs équivalente à celle-ci :</p>
+<p>Vous devriez avoir une liste de champs équivalente à celle-ci :</p>
 <div class="figure align-center">
 <img alt="_images/fields.png" src="_images/fields.png" />
 </div>
@@ -232,7 +235,7 @@ et qui sont les participants.</p>
         <a href="fields/fields.html" class="btn btn-neutral float-right" title="Les champs d’un formulaire" accesskey="n">Suivant <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="partage.html" class="btn btn-neutral" title="Formulaires publics" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Précédent</a>
+        <a href="share.html" class="btn btn-neutral" title="Formulaires publics" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Précédent</a>
       
     </div>
   

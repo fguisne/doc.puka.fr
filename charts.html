@@ -30,6 +30,9 @@
   
 
   
+        <link rel="index" title="Index"
+              href="genindex.html"/>
+        <link rel="search" title="Recherche" href="search.html"/>
     <link rel="top" title="documentation Puka " href="index.html"/>
         <link rel="next" title="Import de données" href="import.html"/>
         <link rel="prev" title="Messagerie" href="message.html"/> 
@@ -81,11 +84,14 @@
 <li class="toctree-l1"><a class="reference internal" href="interface.html">L&#8217;interface de puka</a></li>
 <li class="toctree-l1"><a class="reference internal" href="account.html">Compte Utilisateur</a></li>
 <li class="toctree-l1"><a class="reference internal" href="message.html">Messagerie</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="">Diagrammes</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Diagrammes</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#les-filtres">Les filtres</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="import.html">Import de données</a></li>
 <li class="toctree-l1"><a class="reference internal" href="export.html">Exporter des données</a></li>
 <li class="toctree-l1"><a class="reference internal" href="template.html">Modèles</a></li>
-<li class="toctree-l1"><a class="reference internal" href="partage.html">Formulaires publics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="share.html">Formulaires publics</a></li>
 <li class="toctree-l1"><a class="reference internal" href="references.html">Références</a></li>
 <li class="toctree-l1"><a class="reference internal" href="fields/fields.html">Les champs d&#8217;un formulaire</a></li>
 <li class="toctree-l1"><a class="reference internal" href="glossary.html">Glossaire</a></li>
@@ -111,7 +117,7 @@
         <div class="rst-content">
           
 
-
+ 
 
 
 
@@ -133,26 +139,32 @@
             
   <div class="section" id="diagrammes">
 <h1>Diagrammes<a class="headerlink" href="#diagrammes" title="Lien permanent vers ce titre">¶</a></h1>
-<p>Les diagrammes vous permettent d&#8217;avoir une quantification rapidement et visuellement de vos données. Ils sont mis automatiquement à jour au fur et à mesure que vous ajoutez, supprimez, ou modifier des données.</p>
-<p>Pour les créer et les visualiser, il faut vous rendre sur le tableau de bord de votre formulaire. Un onglet &#8220;Diagrammes&#8221; est présent.</p>
+<p>Les diagrammes vous permettent d&#8217;avoir une visualisation simple et rapide de vos données. Ils sont mis automatiquement à jour au fur et à mesure que vous ajoutez, supprimez, ou modifiez des données.</p>
+<p>Pour les utiliser, il faut vous rendre sur le tableau de bord de votre formulaire. Un onglet &#8220;Diagrammes&#8221; est présent.</p>
 <p>Dans un premier temps, la seule action possible est de créer un nouveau diagramme en cliquant sur le bouton &#8220;Ajouter un diagramme&#8221;.</p>
 <div class="figure">
-<a class="reference internal image-reference" href="_images/add-chart.png"><img alt="_images/add-chart.png" src="_images/add-chart.png" /></a>
+<a class="reference internal image-reference" href="_images/add-chart.png"><img alt="_images/add-chart.png" src="_images/add-chart.png" style="width: 230.5px; height: 93.5px;" /></a>
 </div>
 <p>Vous devez définir plusieurs valeurs pour créer votre diagramme :</p>
 <ul class="simple">
 <li>Un titre : il sera présent au dessus de votre diagramme</li>
 <li>Un type : camembert ou diagramme &#8220;en barres&#8221;</li>
-<li>Une source de données : vous retrouverez les champs qui peuvent servir de source de données, à savoir les champs Case à cocher, Choix Multiple, Etiquette, Note.</li>
+<li>Une source de données : vous retrouverez les champs qui peuvent servir de source de données, à savoir les champs Case à cocher, Choix Multiples, Étiquette, Note.</li>
 </ul>
 <div class="figure">
-<a class="reference internal image-reference" href="_images/chart-form.png"><img alt="_images/chart-form.png" src="_images/chart-form.png" /></a>
+<a class="reference internal image-reference" href="_images/chart-form.png"><img alt="_images/chart-form.png" src="_images/chart-form.png" style="width: 237.5px; height: 395.0px;" /></a>
 </div>
-<p>Une fois le formulaire validé, vous aurez directement votre résultat dans l&#8217;onglet diagrammes. A partir cette vue, vous pouvez éditer un diagramme, à l&#8217;aide du crayon, ou bien le supprimer, avec la croix.</p>
+<p>Une fois le formulaire validé, vous aurez directement votre résultat dans l&#8217;onglet diagrammes. A partir cette vue, vous pouvez éditer un diagramme ou bien le supprimer.</p>
 <div class="figure">
-<a class="reference internal image-reference" href="_images/chart-result.png"><img alt="_images/chart-result.png" src="_images/chart-result.png" /></a>
+<a class="reference internal image-reference" href="_images/chart-result.png"><img alt="_images/chart-result.png" src="_images/chart-result.png" style="width: 236.5px; height: 224.0px;" /></a>
 </div>
 <p>Lorsque vous éditez un diagramme, vous pouvez modifier le titre ou bien la source de données. Vous ne pouvez plus modifier son type. Pour cela, il faut à nouveau créer un diagramme.</p>
+<div class="section" id="les-filtres">
+<h2>Les filtres<a class="headerlink" href="#les-filtres" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Vous pouvez avoir besoin de limiter les lignes de données utilisées dans la création du diagramme, afin de n&#8217;utiliser qu&#8217;une sous partie de vos données. Il est possible de mettre en place des filtres en cliquant sur &#8220;Filtres&#8221;, présent après le titre de votre diagramme.</p>
+<p>Sur cet écran, choisissez un champ à filtrer via le bouton de sélection &#8220;Ajouter un filtre&#8221;. Selon le type du champ, vous pourrez sélectionner un comparateur, et une valeur de comparaison. Par exemple, pour un champ de type Date, vous pourrez sélectionner le comparateur &#8220;Avant&#8221;, et la valeur 12/01/2017. Seules les données ayant, pour ce champ, une date avant le 12 janvier 2017 seront utilisées pour créer le diagramme.</p>
+<p>En ajoutant plusieurs filtres, seules les données correspondant à <em>l&#8217;ensemble des filtres</em> seront utilisées.</p>
+</div>
 </div>
 
 

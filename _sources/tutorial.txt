@@ -1,4 +1,0 @@
-Tutoriel
-========
-
-Ce tutoriel va vous permettre de créer vos permiers formulaires.

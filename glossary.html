@@ -30,6 +30,9 @@
   
 
   
+        <link rel="index" title="Index"
+              href="genindex.html"/>
+        <link rel="search" title="Recherche" href="search.html"/>
     <link rel="top" title="documentation Puka " href="index.html"/>
         <link rel="prev" title="Les champs Texte" href="fields/text.html"/> 
 
@@ -84,10 +87,10 @@
 <li class="toctree-l1"><a class="reference internal" href="import.html">Import de données</a></li>
 <li class="toctree-l1"><a class="reference internal" href="export.html">Exporter des données</a></li>
 <li class="toctree-l1"><a class="reference internal" href="template.html">Modèles</a></li>
-<li class="toctree-l1"><a class="reference internal" href="partage.html">Formulaires publics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="share.html">Formulaires publics</a></li>
 <li class="toctree-l1"><a class="reference internal" href="references.html">Références</a></li>
 <li class="toctree-l1"><a class="reference internal" href="fields/fields.html">Les champs d&#8217;un formulaire</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="">Glossaire</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Glossaire</a></li>
 </ul>
 
             
@@ -110,7 +113,7 @@
         <div class="rst-content">
           
 
-
+ 
 
 
 
@@ -137,11 +140,18 @@
 <dd>Propriétés d&#8217;un champ permettant de spécifier son comportement. Chaque type de champ possède ses propores attributs,
 bien que certains puissent être partagés par plusieurs types (caractère <em>obligatoire</em> par exemple).
 Certains attributs sont modifiables, d&#8217;autres seront figés suite à la création du champ (<em>formulaire référencé</em> par exemple).</dd>
+<dt id="term-champ">Champ</dt>
+<dd>Un champ représente un type d&#8217;information qui sera receuillie sur un formulaire. Un champ possède un type
+(texte, nombre, date, etc.) ainsi que plusieurs attributs (obligatoire, format, etc.) dépendant du type du champ.
+Pour plus d&#8217;informations, voir <a class="reference internal" href="fields/fields.html"><span class="doc">Les champs d&#8217;un formulaire</span></a>.</dd>
+<dt id="term-formulaire">Formulaire</dt>
+<dd>Le formulaire représente la structure qui va accueillir les données. Il s&#8217;agit du coeur de l&#8217;application.
+C&#8217;est le formulaire qui va définir les règles d&#8217;accès, de partage et d&#8217;exploitation des données.</dd>
 <dt id="term-resume">Résumé</dt>
 <dd>Texte synthétique représentant les informations d&#8217;un enregistrement, utilisé sur les références.
 Par défaut, il est généré à partir des champs de type texte (non formatés) du formulaire.
 Il est possible de créer un résumé personnalisé pour un formulaire.
-Pour plus d&#8217;informations, voir : <a class="reference external" href="references.html#affichage-d-une-reference">Affichage d&#8217;une référence</a></dd>
+Pour plus d&#8217;informations, voir : <a class="reference internal" href="references.html#references-affichage"><span class="std std-ref">Affichage d&#8217;une référence</span></a></dd>
 <dt id="term-texte-formate">Texte formaté</dt>
 <dd>Un texte formaté ou <em>riche</em> est un texte qui est saisi et affiché avec des options de formatage
 (police, liens hyper-texte, insertions d&#8217;images par adresse).</dd>

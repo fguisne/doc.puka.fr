@@ -11,8 +11,6 @@ Il existe deux manière de partager un formulaire sur internet :
 
  - avec un lien public vers le formulaire
  - en intégrant le formulaire dans un site existant 
- 
-.. figure::  img/partage/partage.png
 
 Lien public
 -----------
@@ -21,12 +19,12 @@ Le lien public vous permet de partage le formulaire par email ou sur les réseau
 
     https://app.puka.fr/poll/96/lsgtb84o3jpomh4lk0u8f268vq
     
-Ces sondages, au même titre que le reste de l'application, utilisent HTTPS (visible par le cadenas vert dans le navigateur). Vos utilisateurs peuvent donc soumettre leurs réponses sans crainte de fuite de données.
+Ces sondages, au même titre que le reste de l'application, utilisent le protocole sécurisé HTTPS (visible par le cadenas vert dans le navigateur). Vos utilisateurs peuvent donc soumettre leurs réponses en étant assuré que les données sont chiffrées entre leur navigateur et le serveur de puka.
 
 Intégration sur un site existant
 --------------------------------
 
-Vous pouvez également intégrer le formulaire directement sur votre site. Nous utilisons pour cela la technologie *iframe* qui permet d'insérer des sites les uns dans les autres.
+Vous pouvez également intégrer le formulaire directement sur votre site. Nous utilisons pour cela la technologie *iframe* qui permet d'insérer des contenus facilement d'un site à l'autre.
 
 Le code à insérer est disponible dans les propriétés du formulaire, une fois que le partage de ce dernier a été activé.
 

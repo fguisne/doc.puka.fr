@@ -1,9 +1,9 @@
 Diagrammes
 ==========
 
-Les diagrammes vous permettent d'avoir une quantification rapidement et visuellement de vos données. Ils sont mis automatiquement à jour au fur et à mesure que vous ajoutez, supprimez, ou modifier des données.
+Les diagrammes vous permettent d'avoir une visualisation simple et rapide de vos données. Ils sont mis automatiquement à jour au fur et à mesure que vous ajoutez, supprimez, ou modifiez des données.
 
-Pour les créer et les visualiser, il faut vous rendre sur le tableau de bord de votre formulaire. Un onglet "Diagrammes" est présent.
+Pour les utiliser, il faut vous rendre sur le tableau de bord de votre formulaire. Un onglet "Diagrammes" est présent.
 
 Dans un premier temps, la seule action possible est de créer un nouveau diagramme en cliquant sur le bouton "Ajouter un diagramme".
 
@@ -14,15 +14,23 @@ Vous devez définir plusieurs valeurs pour créer votre diagramme :
 
 * Un titre : il sera présent au dessus de votre diagramme
 * Un type : camembert ou diagramme "en barres"
-* Une source de données : vous retrouverez les champs qui peuvent servir de source de données, à savoir les champs Case à cocher, Choix Multiple, Etiquette, Note.
+* Une source de données : vous retrouverez les champs qui peuvent servir de source de données, à savoir les champs Case à cocher, Choix Multiples, Étiquette, Note.
 
 .. figure::  img/charts/chart-form.png
     :scale: 50 %
    
-
-Une fois le formulaire validé, vous aurez directement votre résultat dans l'onglet diagrammes. A partir cette vue, vous pouvez éditer un diagramme, à l'aide du crayon, ou bien le supprimer, avec la croix.
+Une fois le formulaire validé, vous aurez directement votre résultat dans l'onglet diagrammes. A partir cette vue, vous pouvez éditer un diagramme ou bien le supprimer.
 
 .. figure::  img/charts/chart-result.png
     :scale: 50 %
 
 Lorsque vous éditez un diagramme, vous pouvez modifier le titre ou bien la source de données. Vous ne pouvez plus modifier son type. Pour cela, il faut à nouveau créer un diagramme.
+
+Les filtres
+-----------
+
+Vous pouvez avoir besoin de limiter les lignes de données utilisées dans la création du diagramme, afin de n'utiliser qu'une sous partie de vos données. Il est possible de mettre en place des filtres en cliquant sur "Filtres", présent après le titre de votre diagramme.
+
+Sur cet écran, choisissez un champ à filtrer via le bouton de sélection "Ajouter un filtre". Selon le type du champ, vous pourrez sélectionner un comparateur, et une valeur de comparaison. Par exemple, pour un champ de type Date, vous pourrez sélectionner le comparateur "Avant", et la valeur 12/01/2017. Seules les données ayant, pour ce champ, une date avant le 12 janvier 2017 seront utilisées pour créer le diagramme.
+
+En ajoutant plusieurs filtres, seules les données correspondant à *l'ensemble des filtres* seront utilisées.

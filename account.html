@@ -30,6 +30,9 @@
   
 
   
+        <link rel="index" title="Index"
+              href="genindex.html"/>
+        <link rel="search" title="Recherche" href="search.html"/>
     <link rel="top" title="documentation Puka " href="index.html"/>
         <link rel="next" title="Messagerie" href="message.html"/>
         <link rel="prev" title="L’interface de puka" href="interface.html"/> 
@@ -79,7 +82,7 @@
             
                 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="interface.html">L&#8217;interface de puka</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="">Compte Utilisateur</a><ul>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Compte Utilisateur</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#profil">Profil</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#mot-de-passe">Mot de passe</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#parametres">Paramètres</a></li>
@@ -91,7 +94,7 @@
 <li class="toctree-l1"><a class="reference internal" href="import.html">Import de données</a></li>
 <li class="toctree-l1"><a class="reference internal" href="export.html">Exporter des données</a></li>
 <li class="toctree-l1"><a class="reference internal" href="template.html">Modèles</a></li>
-<li class="toctree-l1"><a class="reference internal" href="partage.html">Formulaires publics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="share.html">Formulaires publics</a></li>
 <li class="toctree-l1"><a class="reference internal" href="references.html">Références</a></li>
 <li class="toctree-l1"><a class="reference internal" href="fields/fields.html">Les champs d&#8217;un formulaire</a></li>
 <li class="toctree-l1"><a class="reference internal" href="glossary.html">Glossaire</a></li>
@@ -117,7 +120,7 @@
         <div class="rst-content">
           
 
-
+ 
 
 
 
@@ -139,11 +142,12 @@
             
   <div class="section" id="compte-utilisateur">
 <h1>Compte Utilisateur<a class="headerlink" href="#compte-utilisateur" title="Lien permanent vers ce titre">¶</a></h1>
-<p>Cette section vous permet de configurer votre compte utilisateur.
+<p>Pour accéder à votre compte utilisateur, cliquez sur nom (ou adresse email) dans la barre de navigation, en haut à droite.
+Cette section vous permet de configurer votre compte utilisateur.
 L&#8217;écran est divisé en plusieurs onglets afin d&#8217;en simplifier la lecture.</p>
 <div class="section" id="profil">
 <h2>Profil<a class="headerlink" href="#profil" title="Lien permanent vers ce titre">¶</a></h2>
-<p>Ce premier onlget présente les informations générales de votre compte.
+<p>Ce premier onglet présente les informations générales de votre compte.
 Vous y trouverez :</p>
 <ul class="simple">
 <li>le mail associé au compte. Cette information est non modifiable. Si vous devez changer de mail, <a class="reference external" href="http://www.puka.fr/contact.html">contactez-nous</a> .</li>
@@ -160,7 +164,7 @@ La seule contrainte imposée pour votre compte puka, est la taille de votre mot 
 Au-delà de cette contrainte, il est important de bien protéger vos données en choisissant un mot de passe ayant une certaine complexité :</p>
 <ul class="simple">
 <li>évitez les séquences type : &#8220;abcdef&#8221;, &#8220;azerty&#8221;, &#8220;123456&#8221;</li>
-<li>évitez les mots de passe trop simples (notre nom, mail, ou un mot-clé type &#8220;password&#8221;)</li>
+<li>évitez les mots de passe trop simples (votre nom, mail, ou un mot-clé type &#8220;password&#8221;)</li>
 <li>dans la mesure du possible, n&#8217;utilisez pas un même mot de passe sur différents sites</li>
 </ul>
 <p>Pour vous guider dans le choix d&#8217;un mot de passe, un calculateur de complexité est intégré à la zone de saisie du mot de passe.
@@ -179,15 +183,15 @@ En cas de perte de mot de passe, il est possible, depuis le page de connexion, d
 <div class="section" id="parametres">
 <h2>Paramètres<a class="headerlink" href="#parametres" title="Lien permanent vers ce titre">¶</a></h2>
 <p>Cet onglet vous permet de renseigner des paramètres d&#8217;utilisation de l&#8217;application.
-Pour que les modifications soit prises en compte, il faut activer le bouton &#8220;Enregistrer&#8221; en bas de page.
 Vous pouvez ainsi modifier :</p>
 <blockquote>
 <div><ul class="simple">
-<li>la langue (par défaut en Français). Puka est également disponible en <em>Anglais</em>. Le changement de langue de l&#8217;application se fait à la volée, il est inutile de se déconnecter.</li>
-<li>le format de date (par défaut 31/01/2016). Puka propose d&#8217;autres formats : année sur 2 chiffres, mois en lettres, ...</li>
-<li>les préférences e-mail. Ces options permettent de déterminer si un mail est envoyé à l&#8217;adresse associée au compte lorsqu&#8217;un message interne est reçu par le compte utilisateur, en fonction de son type. Pour plus d&#8217;informations sur les messages, voir la <a class="reference external" href="message.html">page dédiée</a></li>
+<li>la langue (par défaut en Français). Puka est également disponible en <em>Anglais</em>.</li>
+<li>le format de date (par défaut 31/01/2016).</li>
+<li>les préférences de notifications par e-mail. Ces options permettent de déterminer si un e-mail est envoyé à l&#8217;adresse associée au compte lorsqu&#8217;une notification est reçue par le compte utilisateur, en fonction de son type. Pour plus d&#8217;informations sur les messages, voir <a class="reference internal" href="message.html"><span class="doc">Messagerie</span></a>.</li>
 </ul>
 </div></blockquote>
+<p>Pour que les modifications soient prises en compte, il faut cliquer sur le bouton &#8220;Enregistrer&#8221; en bas de page.</p>
 <div class="figure align-center">
 <img alt="_images/settings.png" src="_images/settings.png" />
 </div>
@@ -200,14 +204,13 @@ Vous pouvez ainsi modifier :</p>
 <li>Liste des utilisateurs rattachés à votre licence</li>
 <li>Nombre de formulaires</li>
 <li>Nombre d&#8217;équipes</li>
-<li>Nombre d&#8217;enregistrements</li>
 <li>Volume des pièces jointes</li>
 </ul>
-<p>Une zone de texte &#8220;Clé de licence&#8221; est présente sur cette page. Si vous êtes rattaché à une licence, cette zone n&#8217;est pas modifiable et affiche votre numéro de clé.
-En version d&#8217;essai, cette zone permet de saisir un numéro de licence qui a été acheté par la structure à laquelle vous appartenez.
-Rapprochez-vous de la personne ayant acheté la licence pour obtenir le n° de cette clé.
-Si vous avez acheté une licence multi-utilsateurs, communiquez cette clé auprès de vos collègues. Sur cet onglet vous pouvez suivre les comptes rattachés à votre licence.</p>
-<p>Enfin, cette page propose un lien vers nos formules tarifaires. Vous pouvez les consulter pour obtenir une licence ou prendre <a class="reference external" href="http://www.puka.fr/offres.html">contact</a> avec nous pour obtenir un devis spécialisé.</p>
+<p>Une zone de texte &#8220;Clé de licence&#8221; est présente sur cette page. Si vous possédez à une licence, cette zone n&#8217;est pas modifiable et affiche votre clé de licence.
+En version d&#8217;essai, cette zone permet de saisir un numéro de licence.
+Rapprochez-vous de la personne ayant acheté la licence pour obtenir la clé.
+Si vous avez acheté une licence multi-utilisateurs, communiquez cette clé auprès de vos collègues. Sur cet onglet vous pouvez suivre les comptes rattachés à votre licence.</p>
+<p>Pour obtenir une licence, merci de prendre <a class="reference external" href="http://www.puka.fr/offres.html">contact</a> avec nous pour obtenir un devis.</p>
 <div class="figure align-center">
 <img alt="_images/licence.png" src="_images/licence.png" />
 </div>

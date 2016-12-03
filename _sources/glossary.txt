@@ -7,12 +7,22 @@ Glossaire
         bien que certains puissent être partagés par plusieurs types (caractère *obligatoire* par exemple). 
         Certains attributs sont modifiables, d'autres seront figés suite à la création du champ (*formulaire référencé* par exemple).
         
+    Champ
+        Un champ représente un type d'information qui sera receuillie sur un formulaire. Un champ possède un type
+        (texte, nombre, date, etc.) ainsi que plusieurs attributs (obligatoire, format, etc.) dépendant du type du champ.
+        Pour plus d'informations, voir :doc:`fields/fields`. 
+
+    
+    Formulaire
+        Le formulaire représente la structure qui va accueillir les données. Il s'agit du coeur de l'application. 
+        C'est le formulaire qui va définir les règles d'accès, de partage et d'exploitation des données.
+
     Résumé
         Texte synthétique représentant les informations d'un enregistrement, utilisé sur les références. 
         Par défaut, il est généré à partir des champs de type texte (non formatés) du formulaire.
         Il est possible de créer un résumé personnalisé pour un formulaire.
-        Pour plus d'informations, voir : `Affichage d'une référence <references.html#affichage-d-une-reference>`_ 
-        
+        Pour plus d'informations, voir : :ref:`references_affichage` 
+
     Texte formaté
         Un texte formaté ou *riche* est un texte qui est saisi et affiché avec des options de formatage 
         (police, liens hyper-texte, insertions d'images par adresse).
