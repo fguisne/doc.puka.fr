@@ -1,0 +1,14 @@
+Les champs *Utilisateur*
+========================
+
+Les champs *Utilisateur* permettent de référencer un utilisateur de l'équipe.
+
+Il permet par exemple d'assigner une ligne de donnée à un utilisateur, en proposant ceux présents dans l'équipe.
+ 
+Attributs spécifiques
+---------------------
+===================  ========== ============
+Attribut             Modifiable Rôle
+===================  ========== ============
+Sélection multiple   Non        Permet de sélectionner plusieurs utilisateurs.
+===================  ========== ============

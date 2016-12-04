@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Les champs Texte &mdash; documentation Puka </title>
+  <title>Les champs Note &mdash; documentation Puka </title>
   
 
   
@@ -35,8 +35,8 @@
         <link rel="search" title="Recherche" href="../search.html"/>
     <link rel="top" title="documentation Puka " href="../index.html"/>
         <link rel="up" title="Les champs d’un formulaire" href="fields.html"/>
-        <link rel="next" title="Les champs Nombre" href="number.html"/>
-        <link rel="prev" title="Les champs Case à cocher" href="checkbox.html"/> 
+        <link rel="next" title="Les champs Choix multiple" href="multiplechoice.html"/>
+        <link rel="prev" title="Les champs Nombre" href="number.html"/> 
 
   
   <script src="../_static/js/modernizr.min.js"></script>
@@ -99,12 +99,12 @@
 <li class="toctree-l2"><a class="reference internal" href="fields.html#modifier-l-ordre-des-champs">Modifier l&#8217;ordre des champs</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="fields.html#les-differents-types-de-champs">Les différents types de champs</a><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="checkbox.html">Les champs <em>Case à cocher</em></a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">Les champs <em>Texte</em></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="text.html">Les champs <em>Texte</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="number.html">Les champs <em>Nombre</em></a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Les champs <em>Note</em></a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#attributs-specifiques">Attributs spécifiques</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="number.html">Les champs <em>Nombre</em></a></li>
-<li class="toctree-l3"><a class="reference internal" href="rating.html">Les champs <em>Note</em></a></li>
 <li class="toctree-l3"><a class="reference internal" href="multiplechoice.html">Les champs <em>Choix multiple</em></a></li>
 <li class="toctree-l3"><a class="reference internal" href="reference.html">Les champs <em>Référence</em></a></li>
 <li class="toctree-l3"><a class="reference internal" href="link.html">Les champs <em>Lien</em></a></li>
@@ -151,7 +151,7 @@
       
         <li><a href="fields.html">Les champs d&#8217;un formulaire</a> &raquo;</li>
       
-    <li>Les champs <em>Texte</em></li>
+    <li>Les champs <em>Note</em></li>
     <li class="wy-breadcrumbs-aside">
       
         
@@ -163,16 +163,17 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="les-champs-texte">
-<h1>Les champs <em>Texte</em><a class="headerlink" href="#les-champs-texte" title="Lien permanent vers ce titre">¶</a></h1>
-<p>Les champs <em>texte</em> permettent de stocker du texte libre.</p>
+  <div class="section" id="les-champs-note">
+<h1>Les champs <em>Note</em><a class="headerlink" href="#les-champs-note" title="Lien permanent vers ce titre">¶</a></h1>
+<p>Les champs <em>Note</em> permettent de rentrer une note ou une appréciation, ils sont utiles dans le cadre d&#8217;un sondage.</p>
+<p>Ce champ est représenté par des étoiles, dont le nombre est précisé par l&#8217;attribut Valeur maximale. L&#8217;utilisateur peut ensuite sélectionner le nombre d&#8217;étoiles qu&#8217;il souhaite.</p>
 <div class="section" id="attributs-specifiques">
 <h2>Attributs spécifiques<a class="headerlink" href="#attributs-specifiques" title="Lien permanent vers ce titre">¶</a></h2>
 <table border="1" class="docutils">
 <colgroup>
+<col width="36%" />
 <col width="19%" />
-<col width="10%" />
-<col width="71%" />
+<col width="45%" />
 </colgroup>
 <thead valign="bottom">
 <tr class="row-odd"><th class="head">Attribut</th>
@@ -181,29 +182,10 @@
 </tr>
 </thead>
 <tbody valign="top">
-<tr class="row-even"><td>Obligatoire</td>
-<td>Oui <a class="footnote-reference" href="#id4" id="id1">[1]</a></td>
-<td>Obligation de renseigner ce champ</td>
+<tr class="row-even"><td>Valeur maximale</td>
+<td>Oui</td>
+<td>Nombre d&#8217;étoiles maximum</td>
 </tr>
-<tr class="row-odd"><td>Formaté</td>
-<td>Non</td>
-<td><a class="reference internal" href="../glossary.html#term-texte-formate"><span class="xref std std-term">Texte formaté</span></a></td>
-</tr>
-<tr class="row-even"><td>Longueur maximale</td>
-<td>Oui <a class="footnote-reference" href="#id4" id="id2">[1]</a></td>
-<td>Taille maximale autorisée en saisie, exprimée en nombre de caractères</td>
-</tr>
-<tr class="row-odd"><td>Validateur</td>
-<td>Oui <a class="footnote-reference" href="#id4" id="id3">[1]</a></td>
-<td>Spécifie un type de texte attendu spécifique (e-mail, n° de téléphone)</td>
-</tr>
-</tbody>
-</table>
-<p class="rubric">Notes</p>
-<table class="docutils footnote" frame="void" id="id4" rules="none">
-<colgroup><col class="label" /><col /></colgroup>
-<tbody valign="top">
-<tr><td class="label">[1]</td><td><em>(<a class="fn-backref" href="#id1">1</a>, <a class="fn-backref" href="#id2">2</a>, <a class="fn-backref" href="#id3">3</a>)</em> La modification de cet attribut est possible mais peut entraîner une incohérence dans les données.</td></tr>
 </tbody>
 </table>
 </div>
@@ -216,10 +198,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="number.html" class="btn btn-neutral float-right" title="Les champs Nombre" accesskey="n">Suivant <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="multiplechoice.html" class="btn btn-neutral float-right" title="Les champs Choix multiple" accesskey="n">Suivant <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="checkbox.html" class="btn btn-neutral" title="Les champs Case à cocher" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Précédent</a>
+        <a href="number.html" class="btn btn-neutral" title="Les champs Nombre" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Précédent</a>
       
     </div>
   

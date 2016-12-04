@@ -1,0 +1,16 @@
+Les champs *Nombre*
+=====================
+
+Les champs *Nombre* permettent de rentrer des valeurs numériques entières ou décimales.
+ 
+Attributs spécifiques
+---------------------
+===================  ========== ============
+Attribut             Modifiable Rôle
+===================  ========== ============
+Préfixe              Oui        Texte à afficher avant la valeur
+Suffixe              Oui        Texte à afficher après la valeur
+Valeur minimale      Oui        Plus petite valeur autorisée pour ce champ
+Valeur maximale      Oui        Plus grande valeur autorisée pour ce champ
+===================  ========== ============
+

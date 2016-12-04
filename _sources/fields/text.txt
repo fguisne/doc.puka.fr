@@ -16,4 +16,4 @@ Validateur           Oui [1]_   Spécifie un type de texte attendu spécifique (
 
 .. rubric:: Notes
 
-.. [1] La modification de cet attribut est possible mais peut entraîner une incohérence dans les données. Un champ devenu 
+.. [1] La modification de cet attribut est possible mais peut entraîner une incohérence dans les données.

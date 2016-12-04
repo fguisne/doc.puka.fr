@@ -1,0 +1,10 @@
+Les champs *Durée*
+===================
+Les champs *durée* permettent de stocker un interval de temps.
+
+Le format du champ est la suivant :
+hh:mm:ss.ms
+
+Avec 'h' représentant des heures, 'm' des minutes, 's' des secondes et 'ms' les millisecondes.
+Les heures, les minutes, et les millisecondes sont facultatives, seules les secondes sont obligatoires, sur 2 chiffres.
+ 

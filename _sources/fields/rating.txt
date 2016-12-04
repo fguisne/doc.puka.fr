@@ -1,0 +1,15 @@
+Les champs *Note*
+===================
+
+Les champs *Note* permettent de rentrer une note ou une appréciation, ils sont utiles dans le cadre d'un sondage.
+
+Ce champ est représenté par des étoiles, dont le nombre est précisé par l'attribut Valeur maximale. L'utilisateur peut ensuite sélectionner le nombre d'étoiles qu'il souhaite.
+ 
+Attributs spécifiques
+---------------------
+===================  ========== ============
+Attribut             Modifiable Rôle
+===================  ========== ============
+Valeur maximale      Oui        Nombre d'étoiles maximum
+===================  ========== ============
+

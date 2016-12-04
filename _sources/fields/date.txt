@@ -1,0 +1,4 @@
+Les champs *Date*
+===================
+Les champs *Date* permettent de stocker une date.
+ 

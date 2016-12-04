@@ -1,0 +1,17 @@
+Les champs *Référence*
+======================
+
+Les champs *Référence* permettent de sélectionner une ou plusieurs entrées d'un autre formulaire, le formulaire référencé.
+
+Pour plus d'informations, référez vous à :doc:`../references`.
+ 
+Attributs spécifiques
+---------------------
+======================  ========== ============
+Attribut                Modifiable Rôle
+======================  ========== ============
+Sélection multiple      Non        Permet de sélectionner plusieurs valeurs
+Référence symmétrique   Oui        Si une référence est symmétrique, alors les données référencées afficheront également un lien vers les données les référençant
+Formulaire référencé    Non        Le formulaire dont les données seront sélectionnables pour ce champs
+Mode de sélection       Oui        Indique si la sélection se fait via une liste simple, ou le tableau complet de données
+======================  ========== ============

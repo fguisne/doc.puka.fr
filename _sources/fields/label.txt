@@ -1,0 +1,16 @@
+Les champs *Étiquette*
+======================
+
+Les champs *Étiquette* permettent de stocker une ou plusieurs étiquettes associées à la données.
+Ils permettent d'associer une couleur, et un label.
+Ils sont utiles pour filtrer rapidement des données par rapport aux étiquettes qu'elles possèdent, que ce soit pour de l'affichage, de l'export, ou la création de diagrammes.
+ 
+Attributs spécifiques
+---------------------
+===================  ========== ============
+Attribut             Modifiable Rôle
+===================  ========== ============
+Sélection multiple   Non        Permet de sélectionner plusieurs étiquettes
+Mode de sélection    Oui        Indique si le choix s'effectue via une liste déroulantes, ou des boutons/case à cocher (selon l'attribut Sélection multiple)
+Étiquettes           Oui        Permet de spécifier la liste d'étiquettes sélectionnables, avec leur couleur, et leur label.
+===================  ========== ============

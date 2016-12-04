@@ -1,0 +1,14 @@
+Les champs *Choix multiple*
+===========================
+
+Les champs *Choix multiple* permettent de stocker une ou plusieurs valeurs depuis une liste pré-remplie.
+ 
+Attributs spécifiques
+---------------------
+===================  ========== ============
+Attribut             Modifiable Rôle
+===================  ========== ============
+Sélection multiple   Non        Permet de sélectionner plusieurs options
+Mode de sélection    Oui        Indique si le choix s'effectue via une liste déroulantes, ou des boutons/case à cocher (selon l'attribut Sélection multiple)
+Options              Oui        Les valeurs qui seront sélectionnables par l'utilisateur.
+===================  ========== ============

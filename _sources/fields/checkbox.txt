@@ -2,6 +2,3 @@ Les champs *Case à cocher*
 ==========================
 Les champs *case à cocher* permettent de stocker des valeurs de type vrai/faux.
  
-Attributs spécifiques
----------------------
-*Aucun*

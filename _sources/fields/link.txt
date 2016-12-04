@@ -1,0 +1,12 @@
+Les champs *Lien*
+===================
+Les champs *Lien* permettent d'indiquer un lien vers un site web ou un document.
+ 
+Attributs spécifiques
+---------------------
+===================  ========== ============
+Attribut             Modifiable Rôle
+===================  ========== ============
+Cible                Oui        Indique si un clic sur le lien l'ouvre dans une nouvelle fenêtre/onglet.
+Infobulle            Oui        Texte qui apparaitra au passage de la souris sur le lien
+===================  ========== ============

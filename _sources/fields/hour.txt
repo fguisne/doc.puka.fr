@@ -1,0 +1,3 @@
+Les champs *Heure*
+===================
+Les champs *Heure* permettent de stocker une heure.

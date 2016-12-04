@@ -1,6 +1,6 @@
 Les champs d'un formulaire
 ===========================
-Puka vous permet de stocker vos données au travers de différents type de champs.
+Puka vous permet de stocker vos données en spécifiant différents type de champs.
 Ces types permettent d'apportent certaines contraintes sur vos données et ainsi de s'assurer de leur cohérence.
 
 Modifier les champs d'un formulaire
@@ -22,29 +22,32 @@ Pour ajouter un champ, sélectionnez le bouton "Ajouter un champ".
 Celui-ci propose un sélecteur de type qui vous permet de spécifier quel champ vous souhaitez créer.
 Les types proposés par puka sont les suivants : 
 
-* `Texte <text.html>`_
-* `Case à cocher <checkbox.html>`_
-* Date
-* Heure
-* Durée
-* Nombre
-* Choix multiple
-* Référence
-* Lien
-* Utilisateur
-* Calculé
-* Etiquette
-* Note
+* :doc:`text`
+* :doc:`checkbox`
+* :doc:`date`
+* :doc:`hour`
+* :doc:`duration`
+* :doc:`number`
+* :doc:`multiplechoice`
+* :doc:`reference`
+* :doc:`link`
+* :doc:`user`
+* :doc:`computed`
+* :doc:`label`
+* :doc:`rating`
 
 Les détails d'utilisation de chacun de ces types sont détaillés dans la section correspondante. Cliquez sur un type pour y accéder. 
 
-Les attributs présents sur tous les types de champs sont les suivants :
+Les attributs présents sur la plupart des champs sont les suivants :
 
 ===================  ========== ============
 Attribut             Modifiable Rôle
 ===================  ========== ============
 Nom                  Oui        Nom du champ (obligatoire)
 Aide                 Oui        Message d'aide affiché à la saisie et qui permet de guider l'utilisateur
+Obligatoire          Oui        Indique si une valeur est obligatoire pour ce champ (sinon la nouvelle entrée sera refusée avec un message d'erreur)
+Privé                Oui        Un champ privé n'apparaitra pas pour le formulaire public
+Modifiable           Oui        Un champ non modifiable apparaitra en lecture seule sur un formulaire public
 ===================  ========== ============
 
 Modifier un champ
@@ -75,3 +78,14 @@ Les différents types de champs
 
    checkbox
    text
+   number
+   rating
+   multiplechoice
+   reference
+   link
+   label
+   date
+   hour
+   duration
+   user
+   computed

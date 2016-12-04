@@ -1,0 +1,18 @@
+Les champs *Calculés*
+=====================
+
+Les champs *Calculés* permettent d'afficher dynamiquement des résultats de formule.
+
+A partir d'autres champs nombre, ou de valeurs constantes, ce champ permet d'effectuer automatiquement des calculs simples avec vos données.
+Par exemple, si vous stockez déjà une colonne Prix HT ainsi qu'une colonne TVA, vous pourrez facilement générer la colonne Prix TTC automatiquement à l'aide d'un champ calculé, plutôt que de la remplir vous même.
+ 
+Attributs spécifiques
+---------------------
+===================  ========== ============
+Attribut             Modifiable Rôle
+===================  ========== ============
+Préfixe              Oui        Texte à afficher avant la valeur
+Suffixe              Oui        Texte à afficher après la valeur
+Formule              Oui        Indique comment calculer la valeur du champ
+===================  ========== ============
+

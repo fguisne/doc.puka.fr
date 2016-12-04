@@ -99,6 +99,17 @@
 <li class="toctree-l2"><a class="reference internal" href="#les-differents-types-de-champs">Les différents types de champs</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="checkbox.html">Les champs <em>Case à cocher</em></a></li>
 <li class="toctree-l3"><a class="reference internal" href="text.html">Les champs <em>Texte</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="number.html">Les champs <em>Nombre</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="rating.html">Les champs <em>Note</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="multiplechoice.html">Les champs <em>Choix multiple</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="reference.html">Les champs <em>Référence</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="link.html">Les champs <em>Lien</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="label.html">Les champs <em>Étiquette</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="date.html">Les champs <em>Date</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="hour.html">Les champs <em>Heure</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="duration.html">Les champs <em>Durée</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="user.html">Les champs <em>Utilisateur</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="computed.html">Les champs <em>Calculés</em></a></li>
 </ul>
 </li>
 </ul>
@@ -148,7 +159,7 @@
             
   <div class="section" id="les-champs-d-un-formulaire">
 <h1>Les champs d&#8217;un formulaire<a class="headerlink" href="#les-champs-d-un-formulaire" title="Lien permanent vers ce titre">¶</a></h1>
-<p>Puka vous permet de stocker vos données au travers de différents type de champs.
+<p>Puka vous permet de stocker vos données en spécifiant différents type de champs.
 Ces types permettent d&#8217;apportent certaines contraintes sur vos données et ainsi de s&#8217;assurer de leur cohérence.</p>
 <div class="section" id="modifier-les-champs-d-un-formulaire">
 <h2>Modifier les champs d&#8217;un formulaire<a class="headerlink" href="#modifier-les-champs-d-un-formulaire" title="Lien permanent vers ce titre">¶</a></h2>
@@ -169,27 +180,27 @@ Ces fonctions sont accessibles au niveau formulaire.</p>
 Celui-ci propose un sélecteur de type qui vous permet de spécifier quel champ vous souhaitez créer.
 Les types proposés par puka sont les suivants :</p>
 <ul class="simple">
-<li><a class="reference external" href="text.html">Texte</a></li>
-<li><a class="reference external" href="checkbox.html">Case à cocher</a></li>
-<li>Date</li>
-<li>Heure</li>
-<li>Durée</li>
-<li>Nombre</li>
-<li>Choix multiple</li>
-<li>Référence</li>
-<li>Lien</li>
-<li>Utilisateur</li>
-<li>Calculé</li>
-<li>Etiquette</li>
-<li>Note</li>
+<li><a class="reference internal" href="text.html"><span class="doc">Les champs Texte</span></a></li>
+<li><a class="reference internal" href="checkbox.html"><span class="doc">Les champs Case à cocher</span></a></li>
+<li><a class="reference internal" href="date.html"><span class="doc">Les champs Date</span></a></li>
+<li><a class="reference internal" href="hour.html"><span class="doc">Les champs Heure</span></a></li>
+<li><a class="reference internal" href="duration.html"><span class="doc">Les champs Durée</span></a></li>
+<li><a class="reference internal" href="number.html"><span class="doc">Les champs Nombre</span></a></li>
+<li><a class="reference internal" href="multiplechoice.html"><span class="doc">Les champs Choix multiple</span></a></li>
+<li><a class="reference internal" href="reference.html"><span class="doc">Les champs Référence</span></a></li>
+<li><a class="reference internal" href="link.html"><span class="doc">Les champs Lien</span></a></li>
+<li><a class="reference internal" href="user.html"><span class="doc">Les champs Utilisateur</span></a></li>
+<li><a class="reference internal" href="computed.html"><span class="doc">Les champs Calculés</span></a></li>
+<li><a class="reference internal" href="label.html"><span class="doc">Les champs Étiquette</span></a></li>
+<li><a class="reference internal" href="rating.html"><span class="doc">Les champs Note</span></a></li>
 </ul>
 <p>Les détails d&#8217;utilisation de chacun de ces types sont détaillés dans la section correspondante. Cliquez sur un type pour y accéder.</p>
-<p>Les attributs présents sur tous les types de champs sont les suivants :</p>
+<p>Les attributs présents sur la plupart des champs sont les suivants :</p>
 <table border="1" class="docutils">
 <colgroup>
-<col width="19%" />
-<col width="10%" />
-<col width="71%" />
+<col width="13%" />
+<col width="7%" />
+<col width="80%" />
 </colgroup>
 <thead valign="bottom">
 <tr class="row-odd"><th class="head">Attribut</th>
@@ -205,6 +216,18 @@ Les types proposés par puka sont les suivants :</p>
 <tr class="row-odd"><td>Aide</td>
 <td>Oui</td>
 <td>Message d&#8217;aide affiché à la saisie et qui permet de guider l&#8217;utilisateur</td>
+</tr>
+<tr class="row-even"><td>Obligatoire</td>
+<td>Oui</td>
+<td>Indique si une valeur est obligatoire pour ce champ (sinon la nouvelle entrée sera refusée avec un message d&#8217;erreur)</td>
+</tr>
+<tr class="row-odd"><td>Privé</td>
+<td>Oui</td>
+<td>Un champ privé n&#8217;apparaitra pas pour le formulaire public</td>
+</tr>
+<tr class="row-even"><td>Modifiable</td>
+<td>Oui</td>
+<td>Un champ non modifiable apparaitra en lecture seule sur un formulaire public</td>
 </tr>
 </tbody>
 </table>
@@ -233,6 +256,17 @@ Attention : toute suppression de champ entraîne la suppression de toutes les do
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="checkbox.html">Les champs <em>Case à cocher</em></a></li>
 <li class="toctree-l1"><a class="reference internal" href="text.html">Les champs <em>Texte</em></a></li>
+<li class="toctree-l1"><a class="reference internal" href="number.html">Les champs <em>Nombre</em></a></li>
+<li class="toctree-l1"><a class="reference internal" href="rating.html">Les champs <em>Note</em></a></li>
+<li class="toctree-l1"><a class="reference internal" href="multiplechoice.html">Les champs <em>Choix multiple</em></a></li>
+<li class="toctree-l1"><a class="reference internal" href="reference.html">Les champs <em>Référence</em></a></li>
+<li class="toctree-l1"><a class="reference internal" href="link.html">Les champs <em>Lien</em></a></li>
+<li class="toctree-l1"><a class="reference internal" href="label.html">Les champs <em>Étiquette</em></a></li>
+<li class="toctree-l1"><a class="reference internal" href="date.html">Les champs <em>Date</em></a></li>
+<li class="toctree-l1"><a class="reference internal" href="hour.html">Les champs <em>Heure</em></a></li>
+<li class="toctree-l1"><a class="reference internal" href="duration.html">Les champs <em>Durée</em></a></li>
+<li class="toctree-l1"><a class="reference internal" href="user.html">Les champs <em>Utilisateur</em></a></li>
+<li class="toctree-l1"><a class="reference internal" href="computed.html">Les champs <em>Calculés</em></a></li>
 </ul>
 </div>
 </div>
