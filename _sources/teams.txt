@@ -1,0 +1,42 @@
+Équipes
+===========
+
+Pour travailler à plusieurs, vous pouvez utiliser les équipes. Elles vous permettent de partager des données et des formulaires avec d'autres utilisateurs.
+Votre licence vous donne droit à un certain nombre d'équipes, retrouvez ces informations dans votre :doc:`compte <account>`.
+
+Vos équipes apparaissent directement sur votre tableau de bord.
+
+Créer une équipe
+----------------
+
+Pour créer une nouvelle équipe, cliquez sur le bouton "Créer une équipe" présent en bas du tableau de bord. Il vous suffit ensuite de donner un nom à votre équipe.
+
+Une fois l'équipe créée, vous arrivez sur la page de détail de l'équipe avec trois onglets :
+
+ - les formulaires, qui affiche les formulaires spécifiques à cette équipe
+ - les membres, qui vous permet de retrouver les membres de l'équipe, d'en inviter et d'en supprimer si vous en êtes administrateur
+ - modifier l'équipe, qui permet de renommer ou de supprimer l'équipe
+
+Inviter un utilisateur
+----------------------
+
+Si vous êtes administrateur de l'équipe (rôle par défaut si vous êtes la personne qui a créé l'équipe), vous pouvez inviter d'autres membres à rejoindre l'équipe. En vous rendant sur l'onglet "Membres", vous trouverez un champ permettant de taper l'email d'un utilisateur puka que vous souhaitez inviter. Si l'utilisateur a un compte puka, il recevra une invitation à rejoindre l'équipe, soit via un :doc:`message <message>` soit par email si ses préférences le permettent.
+
+En validant cette invitation, il deviendra membre de l'équipe, libre à vous d'éventuellement lui donner les droits d'administration.
+
+Gestion des droits
+------------------
+
+Les équipes possèdent trois niveaux de droits : *invité*, *membre*, et *administrateur*.
+
+Un *invité* ne peut rien faire, si ce n'est accepter son invitation, pour devenir membre.
+
+Un *membre* peut utiliser les formulaires déjà créés, y compris ajouter ou supprimer des données dans ces formulaires. Il ne peut pas créer ou supprimer des formulaires dans l'équipe, il ne peut pas non plus inviter de nouveaux membres ou retirer des membres existants.
+
+Un *administrateur* a tous les droits : il peut en plus des droits du membre créer ou supprimer des formulaires, inviter de nouveaux membres, supprimer des utilisateurs, et même supprimer l'équipe. En revanche, s'il est le seul administrateur de l'équipe, il ne pourra pas la quitter sans nommer un autre administrateur.
+
+
+Supprimer une équipe
+--------------------
+
+L'onglet "Modifier l'équipe" permet de supprimer l'équipe. Cette suppression entraine la suppression de tous les formulaires rattachés, ainsi que de toutes les données qui y ont été stockées. Une suppression d'équipe est définitive, les données seront supprimées des serveurs !

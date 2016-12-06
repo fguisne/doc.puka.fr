@@ -17,6 +17,7 @@ Table des matières:
    
    interface
    account
+   teams
    message
    charts
    import
